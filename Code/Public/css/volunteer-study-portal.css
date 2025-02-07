@@ -1,0 +1,518 @@
+/* screen - volunteer-study-portal */
+
+.volunteer-study-portal {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.volunteer-study-portal .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.volunteer-study-portal .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.volunteer-study-portal .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.volunteer-study-portal .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.volunteer-study-portal .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.volunteer-study-portal .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.volunteer-study-portal .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.volunteer-study-portal .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.volunteer-study-portal .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 39px;
+  height: 1185px;
+  margin-left: 12px;
+  margin-top: 131px;
+  min-width: 1391px;
+  z-index: 1;
+}
+
+.volunteer-study-portal .sidebar-doc {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  gap: 127px;
+  min-height: 1065px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.volunteer-study-portal .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.volunteer-study-portal .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 47px;
+  min-width: 52px;
+  padding: 9px;
+}
+
+.volunteer-study-portal .home {
+  height: 28px;
+  width: 33px;
+}
+
+.volunteer-study-portal .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  min-height: 1177px;
+  width: 1232px;
+}
+
+.volunteer-study-portal .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  margin-left: 4px;
+  min-width: 1228px;
+}
+
+.volunteer-study-portal .hi-sajal {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 14.0px;
+  min-width: 311px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 605px;
+  width: 82px;
+}
+
+.volunteer-study-portal .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 11.0px;
+  margin-left: 16px;
+  min-height: 35px;
+  width: 135px;
+}
+
+.volunteer-study-portal .sajal-varshney {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-width: 135px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .volunteer {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-left: 11.0px;
+  min-width: 70px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-36@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 4px;
+  width: 75px;
+}
+
+.volunteer-study-portal .flex-row-2 {
+  align-items: flex-end;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  height: 1023px;
+  justify-content: flex-end;
+  min-width: 1228px;
+  padding: 26px 23px;
+}
+
+.volunteer-study-portal .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  min-height: 968px;
+  width: 353px;
+}
+
+.volunteer-study-portal .overlap-group10 {
+  align-items: center;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+  min-height: 300px;
+  padding: 24px 0;
+  width: 353px;
+}
+
+.volunteer-study-portal .image-2 {
+  height: 85px;
+  margin-top: 84px;
+  width: 85px;
+}
+
+.volunteer-study-portal .topic {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .overlap-group8 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 69px;
+  min-height: 300px;
+  padding: 18px 132px;
+  width: 353px;
+}
+
+.volunteer-study-portal .image-3 {
+  height: 85px;
+  margin-top: 88px;
+  width: 85px;
+}
+
+.volunteer-study-portal .topic-1 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .overlap-group11 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  min-height: 300px;
+  padding: 21px 132px;
+  width: 353px;
+}
+
+.volunteer-study-portal .image-4 {
+  height: 85px;
+  margin-top: 86px;
+  width: 85px;
+}
+
+.volunteer-study-portal .topic-2 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 4.0px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 59px;
+  min-height: 968px;
+  width: 353px;
+}
+
+.volunteer-study-portal .overlap-group {
+  align-items: center;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  min-height: 300px;
+  padding: 27px 0;
+  width: 353px;
+}
+
+.volunteer-study-portal .image {
+  height: 85px;
+  margin-top: 81px;
+  width: 85px;
+}
+
+.volunteer-study-portal .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  margin-top: 42px;
+  min-height: 300px;
+  padding: 29px 132px;
+  width: 353px;
+}
+
+.volunteer-study-portal .image-5 {
+  height: 85px;
+  margin-top: 69px;
+  width: 85px;
+}
+
+.volunteer-study-portal .overlap-group7 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  margin-top: 26px;
+  min-height: 300px;
+  padding: 24px 132px;
+  width: 353px;
+}
+
+.volunteer-study-portal .image-1 {
+  height: 85px;
+  margin-top: 83px;
+  width: 85px;
+}
+
+.volunteer-study-portal .overlap-group-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-left: 60px;
+  min-height: 968px;
+  width: 353px;
+}
+
+.volunteer-study-portal .topic-3 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 12.0px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  min-height: 300px;
+  padding: 21px 132px;
+  width: 353px;
+}
+
+.volunteer-study-portal .image-6 {
+  height: 85px;
+  margin-top: 85px;
+  width: 85px;
+}
+
+.volunteer-study-portal .topic-4 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 3px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  min-height: 300px;
+  padding: 24px 132px;
+  width: 353px;
+}
+
+.volunteer-study-portal .topic-5 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 1px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.volunteer-study-portal .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 49px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.volunteer-study-portal .flex-row-3 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.volunteer-study-portal .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.volunteer-study-portal .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.volunteer-study-portal .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.volunteer-study-portal .vector {
+  height: 50px;
+  width: 49px;
+}
+
+.volunteer-study-portal .vector-1 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.volunteer-study-portal .vector-2 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.volunteer-study-portal .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

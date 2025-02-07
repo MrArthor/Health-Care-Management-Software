@@ -1,0 +1,80 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="quiz-result" />
+    <div class="container-center-horizontal">
+        <div class="quiz-result screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <% if(!currentUser) {%>
+                        <a href="/sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+            </div>
+            <div class="overlap-group4">
+                <div class="quiz-result-1">QUIZ RESULT !</div>
+            </div>
+            <p class="chances-of-you-requiring-treatment">Chances of you requiring treatment</p>
+            <div class="overlap-group3">
+                <img class="star-1" src="/img/star-1@2x.svg" alt="Star 1" />
+                <img class="subtract" src="/img/subtract-3@2x.svg" alt="Subtract" />
+            </div>
+            <h1 class="percent">
+                <%=result %>% </h1>
+            <div class="overlap-group2">
+                <a href="patient-portal-chat-app-volunteer">
+                    <div class="rectangle-173"></div>
+                </a>
+                <div class="talk-to-volunteer">Talk to Volunteer</div>
+            </div>
+            <div class="overlap-group5">
+                <div class="talk-to-doctor">Talk to Doctor</div>
+            </div>
+            <div class="footer">
+                <div class="flex-row">
+                    <div class="flex-row-1">
+                        <div class="flex-col">
+                            <div class="ml-care roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector" src="/img/vector-20@2x.svg" alt="Vector" />
+                                <img class="vector-1" src="/img/vector-21@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="/img/vector-22@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

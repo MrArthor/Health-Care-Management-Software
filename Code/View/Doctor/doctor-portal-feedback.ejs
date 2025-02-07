@@ -1,0 +1,108 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="doctor-portal-feedback" />
+    <div class="container-center-horizontal">
+        <div class="doctor-portal-feedback screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <a href="/logout">
+                        <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">Log Out</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="sidebar-doc">
+                    <div class="ml-care roboto-black-black-squeeze-24px">ML<br />CARE</div>
+                    <a href="doctor-portal-standard"><img class="home" src="/img/home@2x.svg" alt="home" /> </a><img class="vector" src="/img/vector-16@2x.svg" alt="Vector" />
+                    <a href="doctor-portal-calendar"><img class="calendar" src="/img/calendar@2x.svg" alt="calendar" /> </a>
+                    <div class="overlap-group1"><img class="feedback" src="/img/feedback@2x.svg" alt="feedback" /></div>
+                    <a href="doctor-portal-chat-choose"><img class="chat" src="/img/chat@2x.svg" alt="chat" /> </a><img class="setting" src="/img/setting@2x.svg" alt="setting" />
+                </div>
+                <div class="flex-col">
+                    <div class="flex-row-1">
+                        <div class="dr-ak-mehta roboto-black-pine-tree-72px">
+                            <%=Doctor.UserDetails.Name %>
+                        </div>
+                        <img class="bell" src="/img/bell-13@2x.svg" alt="bell" />
+                        <div class="flex-col-1">
+                            <div class="dr-ak-mehta-1 opensans-bold-black-16px">
+                                <%=Doctor.UserDetails.Name %>
+                            </div>
+                            <div class="sur-102 opensans-bold-olive-drab-14px">
+                                <%=Doctor._id%>
+                            </div>
+                        </div>
+                        <div class="avatar-image-60"></div>
+                    </div>
+                    <div class="overlap-group3">
+                        <img class="pavan-772" src="/img/pavan-772-1@1x.png" alt="pavan 772" />
+                        <div class="flex-col-2">
+                            <form action="/Doctor/<%=Doctor._id %>/doctor-portal-feedback" method="post">
+                                <div class="overlap-group4">
+                                    <div class="feedback-form roboto-bold-black-squeeze-24px">FEEDBACK FORM</div>
+                                </div>
+                                <div class="need-support roboto-bold-eastern-blue-32px">Need Support?</div>
+                                <p class="contact-us-if-you-ne">Contact us if you need further assistance.</p>
+                                <div class="full-name opensans-bold-black-20px">Full Name</div>
+                                <input type="text" name="DocFeed[fullname]" class="rectangle"></input>
+                                <div class="flex-col-item opensans-bold-black-20px">Email</div>
+                                <input type="email" name="DocFeed[email]" class="rectangle"></input>
+                                <div class="flex-col-item opensans-bold-black-20px">Enter your feedback</div>
+                                <input type="text" name="DocFeed[feedback]" class="rectangle-84"></input>
+                                <button type="submit" class="overlap-group5">
+                                    <div class="rectangle-82"></div> 
+                                <div class="submit roboto-bold-black-squeeze-24px">SUBMIT</div>
+                            </button>
+
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="flex-row-2">
+                    <div class="flex-row-3">
+                        <div class="flex-col-3">
+                            <div class="ml-care-1 roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector-1" src="/img/vector-19@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="/img/vector-20@2x.svg" alt="Vector" />
+                                <img class="vector-3" src="/img/vector-21@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

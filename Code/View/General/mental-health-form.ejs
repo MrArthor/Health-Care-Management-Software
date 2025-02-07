@@ -1,0 +1,76 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="mental-health-form" />
+    <div class="container-center-horizontal">
+        <div class="mental-health-form screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <% if(!currentUser) {%>
+                        <a href="/sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+            </div>
+            <form action="/Patient/<%=Patient._id%>/mental-health-form" method="post">
+                <p class="take-the-mental-health-quiz">TAKE THE MENTAL HEALTH QUIZ !</p>
+                <div class="blood-group roboto-bold-scooter-32px">Age</div>
+                <input class="rectangle-5 " type="text" mentalhealth[age] "></input>
+                <div class="blood-pressure roboto-bold-scooter-32px ">Gender</div>
+                <input class="rectangle-12 "type="text " name="mentalhealth[gender] "></input>
+                <div class="pulse-rate roboto-bold-scooter-32px ">Employment Status</div>
+                <input class="rectangle-165 " type="text "name="mentalhealth[Employment] "></input>
+                <div class="height roboto-bold-scooter-32px ">Work Interference</div>
+                <input class="rectangle-169 "type="text " name="mentalhealth[work] "></input>
+                <div class="weight roboto-bold-scooter-32px ">Family History</div>
+                <input class="rectangle-170 "type="text " name="mentalhealth[Familyhistory] "></input>
+                <div class="pre-history roboto-bold-scooter-32px ">Care Option</div>
+                <input class="rectangle-166 "type="text " name="mentalhealth[careoption] "></input>
+                <div class="condition roboto-bold-scooter-32px ">Benefits</div>
+                <input class="rectangle-167 " type="text "name="mentalhealth[Benefits] "></input>
+                <div class="prferred-doctor roboto-bold-scooter-32px ">PRFERRED DOCTOR</div>
+                <input class="rectangle-168 "type="text " name="mentalhealth[age] "></input>
+                <button class="overlap-group2 " type="submit ">
+                    
+                        <input class="rectangle-164 "></input>
+                    
+                    <div class="submit roboto-bold-black-squeeze-32px ">SUBMIT</div>
+                </button>
+            </form>
+            <div class="footer ">
+                <div class="flex-row ">
+                    <div class="flex-row-1 ">
+                        <div class="flex-col ">
+                            <div class="ml-care roboto-black-white-96px ">ML CARE</div>
+                            <div class="vector-container ">
+                                <img class="vector " src="/img/vector-54@2x.svg " alt="Vector " />
+                                <img class="vector-1 " src="/img/vector-55@2x.svg " alt="Vector " />
+                                <img class="vector-2 " src="/img/vector-56@2x.svg " alt="Vector " />
+                            </div>
+                        </div>
+                        <!-- <div class="lorem-ipsum-container inter-medium-white-24px ">
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                            <div class="lorem-ipsum ">Lorem Ipsum</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

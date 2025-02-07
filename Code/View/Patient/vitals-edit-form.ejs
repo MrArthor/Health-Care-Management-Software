@@ -1,0 +1,78 @@
+<% layout('Layout/boilerplate')%>
+
+    <input type="hidden" id="anPageName" name="page" value="vitals-edit-form" />
+    <div class="container-center-horizontal">
+        <div class="vitals-edit-form screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <% if(!currentUser) {%>
+                        <a href="/sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+            </div>
+            <form action="/Patient/<%=Patient._id%>/vitals-edit-form" method="post">
+                <div class="edit-vitals roboto-black-metallic-seaweed-64px">EDIT VITALS</div>
+                <div class="temperature roboto-bold-scooter-32px">TEMPERATURE</div>
+                <input type="number" name="vital[temp]" class="rectangle-5"></input>
+                <div class="pulse-rate roboto-bold-scooter-32px">PULSE RATE</div>
+                <input type="number" name="vital[pulserate]" class="rectangle-12"></input>
+                <div class="blood-pressure roboto-bold-scooter-32px">BLOOD PRESSURE</div>
+                <input class="rectangle-165"></input>
+                <div class="sugar roboto-bold-scooter-32px">SUGAR</div>
+                <input type="number" name="vital[sugar]" class="rectangle-166"></input>
+                <button type="submit" class="overlap-group2">
+                    <a href="Patient/patient-portal-standard">
+                        <div class="rectangle-164"></div>
+                    </a>
+                    <div class="update roboto-bold-black-squeeze-32px">UPDATE</div></button>
+            </form>
+            <div class="footer">
+                <div class="flex-row">
+                    <div class="flex-row-1">
+                        <div class="flex-col">
+                            <div class="ml-care roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector" src="/img/vector-206@2x.svg" alt="Vector" />
+                                <img class="vector-1" src="/img/vector-207@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="/img/vector-208@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

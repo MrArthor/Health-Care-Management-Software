@@ -1,0 +1,123 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="doctor-portal-chat-application" />
+    <div class="container-center-horizontal">
+        <div class="doctor-portal-chat-application screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <a href="/logout">
+                        <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">Log Out</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="sidebar-doc">
+                    <div class="ml-care roboto-black-black-squeeze-24px">ML<br />CARE</div>
+                    <a href="doctor-portal-standard"><img class="home" src="/img/home@2x.svg" alt="home" /> </a><img class="vector" src="/img/vector-16@2x.svg" alt="Vector" />
+                    <a href="doctor-portal-calendar"><img class="calendar" src="/img/calendar@2x.svg" alt="calendar" /> </a>
+                    <a href="doctor-portal-feedback"><img class="feedback" src="/img/feedback@2x.svg" alt="feedback" />
+                    </a>
+                    <div class="overlap-group1"><img class="chat" src="/img/chat@2x.svg" alt="chat" /></div>
+                    <img class="setting" src="/img/setting@2x.svg" alt="setting" />
+                </div>
+                <div class="flex-col">
+                    <div class="flex-row-1">
+                        <div class="dr-ak-mehta roboto-black-pine-tree-72px">
+                            <%=Doctor.UserDetails.Name %>
+                        </div>
+                        <img class="bell" src="/img/bell-8@2x.svg" alt="bell" />
+                        <div class="flex-col-1">
+                            <div class="dr-ak-mehta-1 opensans-bold-black-16px">
+                                <%=Doctor.UserDetails.Name %>
+                            </div>
+                            <div class="sur-102 opensans-bold-olive-drab-14px">
+                                <%=Doctor._id%>
+                            </div>
+                        </div>
+                        <div class="avatar-image-60"></div>
+                    </div>
+                    <div class="overlap-group3">
+                        <div class="rectangle-80"></div>
+                        <div class="rectangle-77"></div>
+                        <div class="rectangle-81"></div>
+                        <div class="rectangle-87"></div>
+                        <div class="rectangle-89"></div>
+                        <div class="rectangle-84"></div>
+                        <div class="rectangle-85"></div>
+                        <div class="rectangle-86"></div>
+                        <div class="rectangle-83"></div>
+                        <div class="rectangle-88"></div>
+                        <div class="alley roboto-bold-eastern-blue-32px">Alley</div>
+                        <div class="alley-1 roboto-bold-black-20px">Alley</div>
+                        <div class="you roboto-bold-black-20px">You</div>
+                        <div class="active opensans-semi-bold-black-16px">Active</div>
+                        <div class="scjs-sl-nl opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="scjs-sl-nl-1 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="write-a-message">Write a message...</div>
+                        <div class="scjs-sl-nl-2 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="scjs-sl-nl-3 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="scjs-sl-nl-4 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="scjs-sl-nl-5 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="scjs-sl-nl-6 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="scjs-sl-nl-7 opensans-semi-bold-black-16px">scjs&nbsp;&nbsp;sl nl</div>
+                        <div class="rectangle-82"></div>
+                        <div class="avatar-image-60-1"></div>
+                        <div class="avatar-image-60-2"></div>
+                        <div class="avatar-image-60-3"></div>
+                        <div class="ellipse-11"></div>
+                        <img class="image" src="/img/image@2x.svg" alt="image" />
+                        <img class="image-1" src="/img/image@2x.svg" alt="image" />
+                        <img class="image-2" src="/img/image@2x.svg" alt="image" />
+                        <img class="smile" src="/img/smile@2x.svg" alt="smile" />
+                        <img class="send" src="/img/send@2x.svg" alt="send" />
+                        <div class="place">Send</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="flex-row-2">
+                    <div class="flex-row-3">
+                        <div class="flex-col-2">
+                            <div class="ml-care-1 roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector-1" src="/img/vector-19@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="/img/vector-20@2x.svg" alt="Vector" />
+                                <img class="vector-3" src="/img/vector-21@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

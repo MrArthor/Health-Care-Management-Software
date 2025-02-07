@@ -1,0 +1,457 @@
+/* screen - patient-portal-chat-app-doc-vol */
+
+.patient-portal-chat-app-doc-vol {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  height: 2071px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group9 {
+  height: 1940px;
+  margin-top: 131px;
+  position: relative;
+  width: 1474px;
+  z-index: 1;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group4 {
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  left: 156px;
+  min-height: 281px;
+  padding: 30px 0;
+  position: absolute;
+  top: 180px;
+  width: 1228px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group8 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  min-width: 1194px;
+  padding: 13px 533px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 71px;
+  margin-right: 9.0px;
+  min-width: 1179px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group6 {
+  height: 126px;
+  position: relative;
+  width: 554px;
+}
+
+.patient-portal-chat-app-doc-vol .rectangle-8 {
+  background-color: var(--grey1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 554px;
+}
+
+.patient-portal-chat-app-doc-vol .doctor {
+  left: 488px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 86px;
+  white-space: nowrap;
+}
+
+.patient-portal-chat-app-doc-vol .dr-cary-acquiger {
+  left: 107px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.patient-portal-chat-app-doc-vol .doctor-1 {
+  height: 115px;
+  left: 3px;
+  position: absolute;
+  top: 11px;
+  width: 102px;
+}
+
+.patient-portal-chat-app-doc-vol .rectangle-84 {
+  background-color: var(--orangel1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #c0f689ab;
+  height: 32px;
+  left: 107px;
+  position: absolute;
+  top: 66px;
+  width: 121px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group7 {
+  height: 125px;
+  position: relative;
+  width: 554px;
+}
+
+.patient-portal-chat-app-doc-vol .volunteer {
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 86px;
+  white-space: nowrap;
+}
+
+.patient-portal-chat-app-doc-vol .alley {
+  left: 137px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.patient-portal-chat-app-doc-vol .rectangle-86 {
+  background-color: var(--orangel1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #c0f689ab;
+  cursor: pointer;
+  height: 32px;
+  left: 137px;
+  position: absolute;
+  top: 66px;
+  width: 121px;
+}
+
+.patient-portal-chat-app-doc-vol .volunteer-1 {
+  height: 112px;
+  left: 5px;
+  position: absolute;
+  top: 13px;
+  width: 136px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group {
+  align-items: center;
+  background-color: var(--greenl4);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #c0f689;
+  display: flex;
+  height: 84px;
+  left: 156px;
+  min-width: 315px;
+  padding: 0 42px;
+  position: absolute;
+  top: 6px;
+}
+
+.patient-portal-chat-app-doc-vol .avatar-image-60 {
+  background-image: url(../img/avatar---image-60-19@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  left: 1328px;
+  position: absolute;
+  top: 8px;
+  width: 75px;
+}
+
+.patient-portal-chat-app-doc-vol .markus-mcgill {
+  left: 1249px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+}
+
+.patient-portal-chat-app-doc-vol .bell {
+  height: 88px;
+  left: 1131px;
+  position: absolute;
+  top: 10px;
+  width: 82px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group5 {
+  height: 1940px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1474px;
+}
+
+.patient-portal-chat-app-doc-vol .sidebar {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 1492px;
+  left: 12px;
+  min-width: 120px;
+  position: absolute;
+  top: 0;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group1 {
+  align-items: center;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1219px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.patient-portal-chat-app-doc-vol .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.patient-portal-chat-app-doc-vol .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.patient-portal-chat-app-doc-vol .emr {
+  cursor: pointer;
+  height: 34px;
+  margin-left: 1.0px;
+  margin-top: 48px;
+  width: 33px;
+}
+
+.patient-portal-chat-app-doc-vol .calendar {
+  cursor: pointer;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-chat-app-doc-vol .lab {
+  cursor: pointer;
+  height: 46px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 21px;
+}
+
+.patient-portal-chat-app-doc-vol .bill {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 43px;
+}
+
+.patient-portal-chat-app-doc-vol .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-chat-app-doc-vol .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 67px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  min-width: 56px;
+  padding: 16px 11px;
+}
+
+.patient-portal-chat-app-doc-vol .chat {
+  height: 34px;
+  width: 33px;
+}
+
+.patient-portal-chat-app-doc-vol .setting {
+  cursor: pointer;
+  height: 31px;
+  margin-right: 1.0px;
+  margin-top: 21px;
+  width: 33px;
+}
+
+.patient-portal-chat-app-doc-vol .flex-row {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  left: 0;
+  min-width: 1440px;
+  padding: 105px 138px;
+  position: absolute;
+  top: 1333px;
+}
+
+.patient-portal-chat-app-doc-vol .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.patient-portal-chat-app-doc-vol .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.patient-portal-chat-app-doc-vol .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.patient-portal-chat-app-doc-vol .vector {
+  height: 50px;
+  width: 49px;
+}
+
+.patient-portal-chat-app-doc-vol .vector-1 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.patient-portal-chat-app-doc-vol .vector-2 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.patient-portal-chat-app-doc-vol .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}
+
+.patient-portal-chat-app-doc-vol .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.patient-portal-chat-app-doc-vol .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}

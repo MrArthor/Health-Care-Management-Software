@@ -1,0 +1,241 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="doctor-portal-calendar" />
+    <div class="container-center-horizontal">
+        <div class="doctor-portal-calendar screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <a href="/logout">
+                        <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">Log Out</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="sidebar-doc">
+                    <div class="ml-care roboto-black-black-squeeze-24px">ML<br />CARE</div>
+                    <a href="doctor-portal-standard"><img class="home" src="/img/home@2x.svg" alt="home" /> </a><img class="vector" src="/img/vector-16@2x.svg" alt="Vector" />
+                    <div class="overlap-group1"><img class="calendar" src="/img/calendar@2x.svg" alt="calendar" /></div>
+                    <a href="doctor-portal-feedback"><img class="feedback" src="/img/feedback@2x.svg" alt="feedback" /> </a>
+                    <a href="doctor-portal-chat-choose"><img class="chat" src="/img/chat@2x.svg" alt="chat" /> </a><img class="setting" src="/img/setting@2x.svg" alt="setting" />
+                </div>
+                <div class="flex-col">
+                    <div class="flex-row-1">
+                        <div class="dr-ak-mehta roboto-black-pine-tree-72px">
+                            <%=Doctor.UserDetails.Name %>
+                        </div>
+                        <img class="bell" src="/img/bell-14@2x.svg" alt="bell" />
+                        <div class="flex-col-1">
+                            <div class="dr-ak-mehta-1 opensans-bold-black-16px">
+                                <%=Doctor.UserDetails.Name %>
+                            </div>
+                            <div class="sur-102 opensans-bold-olive-drab-14px">
+                                <%=Doctor._id%>
+                            </div>
+                        </div>
+                        <div class="avatar-image-60"></div>
+                    </div>
+                    <div class="overlap-group-container-1">
+                        <div class="overlap-group3">
+                            <div class="overlap-group5">
+                                <div class="november-2022 roboto-bold-black-squeeze-24px">NOVEMBER, 2022</div>
+                                <img class="vector-1" src="/img/vector-71@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="/img/vector-72@2x.svg" alt="Vector" />
+                            </div>
+                            <div class="flex-row-2">
+                                <div class="flex-row-3">
+                                    <div class="flex-row-4">
+                                        <div class="flex-row-5">
+                                            <div class="flex-col-2">
+                                                <div class="place roboto-bold-metallic-seaweed-16px">SUN</div>
+                                                <div class="number roboto-bold-yellow-orange-16px">1</div>
+                                                <div class="number roboto-bold-yellow-orange-16px">8</div>
+                                                <div class="number-1 roboto-bold-la-palma-16px">15</div>
+                                                <div class="number-1 roboto-bold-yellow-orange-16px">22</div>
+                                                <div class="number-1 roboto-bold-yellow-orange-16px">29</div>
+                                            </div>
+                                            <div class="flex-col-3">
+                                                <div class="mon roboto-bold-metallic-seaweed-16px">MON</div>
+                                                <div class="number-2 roboto-bold-yellow-orange-16px">2</div>
+                                                <div class="number-2 roboto-bold-yellow-orange-16px">9</div>
+                                                <div class="overlap-group6">
+                                                    <div class="number-3 roboto-bold-white-16px">16</div>
+                                                </div>
+                                                <div class="number-5 roboto-bold-yellow-orange-16px">23</div>
+                                                <div class="number-6 roboto-bold-yellow-orange-16px">30</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-col-4">
+                                            <div class="tue roboto-bold-metallic-seaweed-16px">TUE</div>
+                                            <div class="number roboto-bold-yellow-orange-16px">3</div>
+                                            <div class="number-1 roboto-bold-yellow-orange-16px">10</div>
+                                            <div class="number-1 roboto-bold-la-palma-16px">17</div>
+                                            <div class="number-1 roboto-bold-yellow-orange-16px">24</div>
+                                        </div>
+                                        <div class="flex-col-5">
+                                            <div class="wed roboto-bold-metallic-seaweed-16px">WED</div>
+                                            <div class="number roboto-bold-yellow-orange-16px">4</div>
+                                            <div class="number-1 roboto-bold-yellow-orange-16px">11</div>
+                                            <div class="number-1 roboto-bold-la-palma-16px">18</div>
+                                            <div class="number-1 roboto-bold-yellow-orange-16px">25</div>
+                                        </div>
+                                        <div class="flex-col-6">
+                                            <div class="thu roboto-bold-metallic-seaweed-16px">THU</div>
+                                            <div class="number-7 roboto-bold-yellow-orange-16px">5</div>
+                                            <div class="number-8 roboto-bold-yellow-orange-16px">12</div>
+                                            <div class="overlap-group7">
+                                                <div class="number-3 roboto-bold-white-16px">19</div>
+                                            </div>
+                                            <div class="number-9 roboto-bold-yellow-orange-16px">26</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-col-7">
+                                        <div class="fri roboto-bold-metallic-seaweed-16px">FRI</div>
+                                        <div class="number roboto-bold-yellow-orange-16px">6</div>
+                                        <div class="number-1 roboto-bold-yellow-orange-16px">13</div>
+                                        <div class="number-1 roboto-bold-la-palma-16px">20</div>
+                                        <div class="number-1 roboto-bold-yellow-orange-16px">27</div>
+                                    </div>
+                                </div>
+                                <div class="flex-col-8">
+                                    <div class="sat roboto-bold-metallic-seaweed-16px">SAT</div>
+                                    <div class="number-10 roboto-bold-yellow-orange-16px">7</div>
+                                    <div class="number-4 roboto-bold-yellow-orange-16px">14</div>
+                                    <div class="number-4 roboto-bold-la-palma-16px">21</div>
+                                    <div class="number-4 roboto-bold-yellow-orange-16px">28</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-col-9">
+                            <div class="flex-col-10">
+                                <div class="overlap-group-container-2">
+                                    <div class="overlap-group18">
+                                        <div class="today">TODAY</div>
+                                    </div>
+                                    <div class="overlap-group13">
+                                        <div class="address roboto-bold-metallic-seaweed-16px">19 NOVEMBER</div>
+                                        <div class="thursday">Thursday</div>
+                                    </div>
+                                    <div class="overlap-group14">
+                                        <div class="add-activity roboto-bold-black-squeeze-24px">ADD ACTIVITY</div>
+                                        <img class="add" src="/img/add@2x.svg" alt="add" />
+                                    </div>
+                                </div>
+                                <div class="flex-row-6">
+                                    <div class="text-6 roboto-bold-metallic-seaweed-20px">13:00</div>
+                                    <div class="overlap-group20"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    <div class="overlap-group25">
+                                        <div class="overlap-group">
+                                            <div class="appointment roboto-bold-white-14px">Appointment</div>
+                                            <div class="dr-cary-acquiger opensans-semi-bold-dark-fern-8px">Dr.
+                                                <%=Doctor.UserDetails.Name %>
+                                            </div>
+                                        </div>
+                                        <img class="edit-1" src="/img/edit@2x.svg" alt="edit" />
+                                    </div>
+                                    <div class="overlap-group19"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    <div class="overlap-group16"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                </div>
+                            </div>
+                            <div class="flex-row-7">
+                                <div class="flex-row-8">
+                                    <div class="text-container roboto-bold-metallic-seaweed-20px">
+                                        <div class="text">14:00</div>
+                                        <div class="text">15:00</div>
+                                        <div class="text">16:00</div>
+                                        <div class="text">17:00</div>
+                                    </div>
+                                    <div class="overlap-group-container">
+                                        <div class="overlap-group-1"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group-1"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group-1"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group11"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    </div>
+                                </div>
+                                <div class="overlap-group-container-3">
+                                    <div class="overlap-group-2"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    <div class="overlap-group-2"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    <div class="overlap-group-3">
+                                        <div class="overlap-group">
+                                            <div class="appointment-1 roboto-bold-white-14px">Appointment</div>
+                                            <div class="dr-cary-acquiger opensans-semi-bold-dark-fern-8px">Dr.
+                                                <%=Doctor.UserDetails.Name %>
+                                            </div>
+                                        </div>
+                                        <img class="edit-1" src="/img/edit@2x.svg" alt="edit" />
+                                    </div>
+                                    <div class="overlap-group2"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                </div>
+                                <div class="flex-row-9">
+                                    <div class="overlap-group-container">
+                                        <div class="overlap-group-3">
+                                            <div class="overlap-group">
+                                                <div class="appointment-2 roboto-bold-white-14px">Appointment</div>
+                                                <div class="dr-cary-acquiger opensans-semi-bold-dark-fern-8px">Dr.
+                                                    <%=Doctor.UserDetails.Name %>
+                                                </div>
+                                            </div>
+                                            <img class="edit-1" src="/img/edit@2x.svg" alt="edit" />
+                                        </div>
+                                        <div class="overlap-group-2"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group-2"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group2"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    </div>
+                                    <div class="overlap-group-container">
+                                        <div class="overlap-group-4"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group-4"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group-4"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                        <div class="overlap-group-1"><img class="edit" src="/img/edit-1@2x.svg" alt="edit" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="flex-row-10">
+                    <div class="flex-row-11">
+                        <div class="flex-col-11">
+                            <div class="ml-care-1 roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector-3" src="/img/vector-19@2x.svg" alt="Vector" />
+                                <img class="vector-4" src="/img/vector-20@2x.svg" alt="Vector" />
+                                <img class="vector-5" src="/img/vector-21@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

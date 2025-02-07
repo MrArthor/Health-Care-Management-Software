@@ -1,0 +1,1380 @@
+/* screen - patient-portal-emr */
+
+.patient-portal-emr {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2733px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.patient-portal-emr .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.patient-portal-emr .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.patient-portal-emr .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.patient-portal-emr .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.patient-portal-emr .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.patient-portal-emr .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.patient-portal-emr .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.patient-portal-emr .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.patient-portal-emr .flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 33px;
+  height: 1766px;
+  margin-right: 23.0px;
+  margin-top: 131px;
+  min-width: 1393px;
+  z-index: 1;
+}
+
+.patient-portal-emr .flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  height: 1492px;
+  min-width: 461px;
+}
+
+.patient-portal-emr .sidebar {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1492px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.patient-portal-emr .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.patient-portal-emr .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.patient-portal-emr .overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  margin-top: 40px;
+  min-width: 56px;
+  padding: 8px 11px;
+}
+
+.patient-portal-emr .emr {
+  height: 34px;
+  width: 33px;
+}
+
+.patient-portal-emr .calendar {
+  cursor: pointer;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 28px;
+  width: 33px;
+}
+
+.patient-portal-emr .lab {
+  cursor: pointer;
+  height: 46px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 21px;
+}
+
+.patient-portal-emr .bill {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 43px;
+}
+
+.patient-portal-emr .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-emr .chat {
+  cursor: pointer;
+  height: 34px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-emr .setting {
+  cursor: pointer;
+  height: 31px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-emr .overlap-group-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 94px;
+  margin-bottom: 5.0px;
+  min-height: 1475px;
+  width: 317px;
+}
+
+.patient-portal-emr .overlap-group-1 {
+  align-items: center;
+  background-color: var(--greenl4);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #c0f689;
+  display: flex;
+  height: 84px;
+  min-width: 315px;
+  padding: 0 42px;
+}
+
+.patient-portal-emr .overlap-group7 {
+  border-radius: 10px;
+  height: 1297px;
+  position: relative;
+  width: 315px;
+}
+
+.patient-portal-emr .vector-1 {
+  height: 24px;
+  left: 49px;
+  position: absolute;
+  top: 853px;
+  width: 12px;
+}
+
+.patient-portal-emr .vector-2 {
+  height: 17px;
+  left: 47px;
+  position: absolute;
+  top: 975px;
+  width: 16px;
+}
+
+.patient-portal-emr .rectangle-103 {
+  background-color: var(--mercury);
+  border: 1px none;
+  border-radius: 10px;
+  height: 1297px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 315px;
+}
+
+.patient-portal-emr .rectangle-104 {
+  background-color: var(--scooter);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  height: 72px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-113 {
+  background-color: var(--scooter);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  height: 72px;
+  left: 13px;
+  position: absolute;
+  top: 638px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-105 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 123px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-114 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 748px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-106 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 181px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-115 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 806px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-107 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 239px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-116 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 864px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-108 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 297px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-117 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 922px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-109 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 355px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-118 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 980px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-112 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 529px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-119 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 1154px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-110 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 413px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-120 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 1038px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-111 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 471px;
+  width: 288px;
+}
+
+.patient-portal-emr .rectangle-121 {
+  background-color: var(--bluel4);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #b3bcbe;
+  height: 49px;
+  left: 13px;
+  position: absolute;
+  top: 1096px;
+  width: 288px;
+}
+
+.patient-portal-emr .visits {
+  left: 29px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .tests {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 659px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .visits-1 {
+  height: 22px;
+  left: 29px;
+  position: absolute;
+  top: 137px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-2 {
+  height: 22px;
+  left: 29px;
+  position: absolute;
+  top: 311px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-3 {
+  height: 22px;
+  left: 28px;
+  position: absolute;
+  top: 195px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-4 {
+  height: 22px;
+  left: 28px;
+  position: absolute;
+  top: 369px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-5 {
+  height: 22px;
+  left: 28px;
+  position: absolute;
+  top: 485px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-6 {
+  height: 22px;
+  left: 28px;
+  position: absolute;
+  top: 253px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-7 {
+  height: 22px;
+  left: 28px;
+  position: absolute;
+  top: 427px;
+  width: 20px;
+}
+
+.patient-portal-emr .visits-8 {
+  height: 22px;
+  left: 28px;
+  position: absolute;
+  top: 543px;
+  width: 20px;
+}
+
+.patient-portal-emr .test {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 764px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-1 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 880px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-2 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 996px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-3 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 1111px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-4 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 822px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-5 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 938px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-6 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 1054px;
+  width: 21px;
+}
+
+.patient-portal-emr .test-7 {
+  height: 18px;
+  left: 28px;
+  position: absolute;
+  top: 1169px;
+  width: 21px;
+}
+
+.patient-portal-emr .date {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 133px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-1 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 759px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-2 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 247px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-3 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 873px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-4 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 365px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-5 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 991px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-6 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 481px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-7 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1107px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-8 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 191px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-9 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 817px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-10 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 305px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-11 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 931px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-12 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 423px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-13 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1049px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-14 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 539px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .date-15 {
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1165px;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .vector-3 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 123px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-4 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 749px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-5 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 237px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-6 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 863px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-7 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 355px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-8 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 981px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-9 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 471px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-10 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 1097px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-11 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 181px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-12 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 807px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-13 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 295px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-14 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 921px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-15 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 413px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-16 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 1039px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-17 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 529px;
+  width: 60px;
+}
+
+.patient-portal-emr .vector-18 {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 1155px;
+  width: 60px;
+}
+
+.patient-portal-emr .flex-col {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 1758px;
+  width: 899px;
+}
+
+.patient-portal-emr .flex-row-2 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  margin-right: 2px;
+  min-width: 882px;
+}
+
+.patient-portal-emr .bmi {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 12.0px;
+  min-width: 66px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .x91-c {
+  color: var(--blued3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 12.0px;
+  margin-left: 33px;
+  min-width: 67px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 444px;
+  width: 82px;
+}
+
+.patient-portal-emr .markus-mcgill {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-bottom: 14.0px;
+  margin-left: 36px;
+  min-height: 30px;
+  min-width: 69px;
+  text-align: center;
+}
+
+.patient-portal-emr .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-11@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 10px;
+  width: 75px;
+}
+
+.patient-portal-emr .overlap-group4 {
+  align-items: center;
+  background-color: var(--mercury);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-right: 2px;
+  margin-top: 86px;
+  min-height: 274px;
+  padding: 13px 0;
+  width: 897px;
+}
+
+.patient-portal-emr .overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--scooter);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 861px;
+  padding: 21px 390px;
+}
+
+.patient-portal-emr .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 89px;
+  margin-right: 8.0px;
+  min-width: 837px;
+}
+
+.patient-portal-emr .overlap-group {
+  align-items: center;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 61px;
+  justify-content: flex-end;
+  min-width: 374px;
+  padding: 11px;
+}
+
+.patient-portal-emr .overlap-group-2 {
+  align-items: center;
+  align-self: flex-end;
+  background: linear-gradient(180deg, rgb(250, 153, 14) 0%, rgb(252.88, 238.15, 217.05) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px #fbc880;
+  display: flex;
+  height: 38px;
+  min-width: 39px;
+  padding: 0 13px;
+}
+
+.patient-portal-emr .temperature {
+  height: 24px;
+  width: 12px;
+}
+
+.patient-portal-emr .temperature-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 20px;
+  min-width: 140px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .x91-c-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 80px;
+  min-width: 67px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .overlap-group2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background: linear-gradient(180deg, rgb(250, 153, 14) 0%, rgb(252.88, 238.15, 217.05) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px #fbc880;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  min-width: 39px;
+  padding: 8px 9px;
+}
+
+.patient-portal-emr .weight {
+  height: 18px;
+  width: 20px;
+}
+
+.patient-portal-emr .weight-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 18px;
+  min-width: 75px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .address {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 130px;
+  min-width: 84px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .overlap-group1-2 {
+  align-items: center;
+  align-self: flex-end;
+  background: linear-gradient(180deg, rgb(250, 153, 14) 0%, rgb(252.88, 238.15, 217.05) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px #fbc880;
+  display: flex;
+  height: 38px;
+  min-width: 39px;
+  padding: 0 10px;
+}
+
+.patient-portal-emr .height {
+  height: 20px;
+  width: 18px;
+}
+
+.patient-portal-emr .height-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 22px;
+  min-width: 72px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .address-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 105px;
+  min-width: 108px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .overlap-group10 {
+  align-items: center;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 61px;
+  justify-content: flex-end;
+  min-width: 374px;
+  padding: 11px 14px;
+}
+
+.patient-portal-emr .overlap-group3 {
+  align-items: flex-end;
+  align-self: flex-end;
+  background: linear-gradient(180deg, rgb(250, 153, 14) 0%, rgb(252.88, 238.15, 217.05) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px #fbc880;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  min-width: 39px;
+  padding: 10.2px 9px;
+}
+
+.patient-portal-emr .water-bal {
+  height: 17px;
+  width: 20px;
+}
+
+.patient-portal-emr .water-balance {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 18px;
+  min-width: 160px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .percent {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 65px;
+  min-width: 61px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .overlap-group-container-3 {
+  align-items: center;
+  background-color: var(--mercury);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  margin-top: 47px;
+  min-height: 389px;
+  padding: 13px 0;
+  width: 897px;
+}
+
+.patient-portal-emr .overlap-group14 {
+  align-items: flex-start;
+  background-color: var(--scooter);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 861px;
+  padding: 21px 283px;
+}
+
+.patient-portal-emr .blood-pressure-mmhg {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 293px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .overlap-group1 {
+  height: 245px;
+  margin-left: 20.0px;
+  position: relative;
+  width: 805px;
+}
+
+.patient-portal-emr .line {
+  height: 245px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.patient-portal-emr .line-1 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 218px;
+  width: 805px;
+}
+
+.patient-portal-emr .vector {
+  height: 157px;
+  left: 34px;
+  position: absolute;
+  top: 60px;
+  width: 748px;
+}
+
+.patient-portal-emr .overlap-group-container-1 {
+  align-items: center;
+  background-color: var(--mercury);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  margin-right: 2px;
+  margin-top: 47px;
+  min-height: 389px;
+  padding: 13px 0;
+  width: 897px;
+}
+
+.patient-portal-emr .overlap-group17 {
+  align-items: flex-start;
+  background-color: var(--scooter);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 861px;
+  padding: 21px 336px;
+}
+
+.patient-portal-emr .blood-glucose {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .overlap-group19 {
+  align-items: flex-start;
+  background-color: var(--scooter);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 861px;
+  padding: 21px 360px;
+}
+
+.patient-portal-emr .heart-rate {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 140px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-emr .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 229px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.patient-portal-emr .flex-row-3 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.patient-portal-emr .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.patient-portal-emr .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.patient-portal-emr .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.patient-portal-emr .vector-19 {
+  height: 50px;
+  width: 49px;
+}
+
+.patient-portal-emr .vector-20 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.patient-portal-emr .vector-21 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.patient-portal-emr .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

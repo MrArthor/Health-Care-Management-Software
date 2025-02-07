@@ -1,0 +1,467 @@
+/* screen - doctor-portal-chat-application */
+
+.doctor-portal-chat-application {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.doctor-portal-chat-application .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.doctor-portal-chat-application .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.doctor-portal-chat-application .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.doctor-portal-chat-application .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.doctor-portal-chat-application .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.doctor-portal-chat-application .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.doctor-portal-chat-application .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.doctor-portal-chat-application .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.doctor-portal-chat-application .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 1109px;
+  margin-left: 12px;
+  margin-top: 131px;
+  min-width: 1391px;
+  z-index: 1;
+}
+
+.doctor-portal-chat-application .sidebar-doc {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1065px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.doctor-portal-chat-application .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.doctor-portal-chat-application .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.doctor-portal-chat-application .vector {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 51px;
+  width: 41px;
+}
+
+.doctor-portal-chat-application .calendar {
+  cursor: pointer;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 40px;
+  width: 33px;
+}
+
+.doctor-portal-chat-application .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 46px;
+  width: 33px;
+}
+
+.doctor-portal-chat-application .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 47px;
+  margin-top: 30px;
+  min-width: 56px;
+  padding: 6px 11px;
+}
+
+.doctor-portal-chat-application .chat {
+  height: 34px;
+  width: 33px;
+}
+
+.doctor-portal-chat-application .setting {
+  cursor: pointer;
+  height: 31px;
+  margin-right: 3.0px;
+  margin-top: 31px;
+  width: 33px;
+}
+
+.doctor-portal-chat-application .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 63px;
+  min-height: 1101px;
+  width: 1247px;
+}
+
+.doctor-portal-chat-application .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  min-width: 1247px;
+}
+
+.doctor-portal-chat-application .dr-ak-mehta {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 22.0px;
+  min-width: 490px;
+  white-space: nowrap;
+}
+
+.doctor-portal-chat-application .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 465px;
+  width: 82px;
+}
+
+.doctor-portal-chat-application .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 11.0px;
+  margin-left: 12px;
+  min-height: 35px;
+  width: 114px;
+}
+
+.doctor-portal-chat-application .dr-ak-mehta-1 {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-width: 114px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-chat-application .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-27@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 9px;
+  width: 75px;
+}
+
+.doctor-portal-chat-application .overlap-group3 {
+  height: 948px;
+  position: relative;
+  width: 1232px;
+}
+
+.doctor-portal-chat-application .rectangle-80 {
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  height: 948px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 1228px;
+}
+
+.doctor-portal-chat-application .rectangle-77 {
+  background-color: var(--grey1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  height: 128px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1232px;
+}
+
+.doctor-portal-chat-application .rectangle-84 {
+  background-color: var(--cotton-seed);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #968c8c87;
+  height: 80px;
+  left: 75px;
+  position: absolute;
+  top: 370px;
+  width: 80px;
+}
+
+.doctor-portal-chat-application .rectangle-86 {
+  background-color: var(--cotton-seed);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #968c8c87;
+  height: 80px;
+  left: 267px;
+  position: absolute;
+  top: 370px;
+  width: 80px;
+}
+
+.doctor-portal-chat-application .alley {
+  left: 115px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.doctor-portal-chat-application .rectangle-82 {
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #c0f689ab;
+  height: 31px;
+  left: 1089px;
+  position: absolute;
+  top: 835px;
+  width: 104px;
+}
+
+.doctor-portal-chat-application .avatar-image-60-1 {
+  background-image: url(../img/avatar---image-60-28@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  left: 20px;
+  position: absolute;
+  top: 35px;
+  width: 75px;
+}
+
+.doctor-portal-chat-application .avatar-image-60-2 {
+  background-image: url(../img/avatar---image-60-29@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 51px;
+  left: 20px;
+  position: absolute;
+  top: 185px;
+  width: 51px;
+}
+
+.doctor-portal-chat-application .avatar-image-60-3 {
+  background-image: url(../img/avatar---image-60-30@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 51px;
+  left: 1153px;
+  position: absolute;
+  top: 498px;
+  transform: rotate(180deg);
+  width: 51px;
+}
+
+.doctor-portal-chat-application .image {
+  height: 24px;
+  left: 103px;
+  position: absolute;
+  top: 398px;
+  width: 24px;
+}
+
+.doctor-portal-chat-application .image-1 {
+  height: 24px;
+  left: 199px;
+  position: absolute;
+  top: 398px;
+  width: 24px;
+}
+
+.doctor-portal-chat-application .image-2 {
+  height: 24px;
+  left: 295px;
+  position: absolute;
+  top: 398px;
+  width: 24px;
+}
+
+.doctor-portal-chat-application .place {
+  color: var(--grey1);
+  font-family: var(--font-family-roboto-semibold);
+  font-size: 15px;
+  font-weight: 600;
+  left: 1112px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 836px;
+  white-space: nowrap;
+}
+
+.doctor-portal-chat-application .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 125px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.doctor-portal-chat-application .flex-row-2 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.doctor-portal-chat-application .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.doctor-portal-chat-application .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.doctor-portal-chat-application .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.doctor-portal-chat-application .vector-1 {
+  height: 50px;
+  width: 49px;
+}
+
+.doctor-portal-chat-application .vector-2 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.doctor-portal-chat-application .vector-3 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.doctor-portal-chat-application .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

@@ -1,0 +1,117 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="about-us" />
+    <div class="container-center-horizontal">
+        <div class="about-us screen">
+            <div class="flex-col">
+                <p class="meet-the-team">MEET&nbsp;&nbsp;THE&nbsp;&nbsp;TEAM</p>
+                <div class="overlap-group-container">
+                    <!-- <div class="overlap-group1">
+                        <img class="overlap-group1" src="/img/VanshSachdeva.jpg" alt="Ellipse 9" />
+                        <div class="place">Vansh Sachdev</div>
+                    </div>
+                    <div class="overlap-group2">
+                        <img class="ellipse-9" src="/img/ellipse-9-7@2x.png" alt="Ellipse 9" />
+                        <div class="flex-row">
+                            <div class="place-1">Deepika Khullar</div>
+                            <img class="vector" src="/img/vector-347@2x.svg" alt="Vector" />
+                        </div>
+                    </div> -->
+                    <div class="overlap-group3">
+                        <div class="member-1">
+                            <!-- <img class="overlap-group3" src="/img/VanshSachdeva.jpg" alt="Vector" /> -->
+                        </div>
+                        <div class="place-2">Vansh Sachdeva</div>
+                    </div>
+                    <div class="overlap-group3">
+                        <div class="member-1">
+                            <!-- <img class="overlap-group3" src="/img/DeepikaKhullar.jpeg" alt="Vector" /> -->
+                        </div>
+                        <div class="place-2">Deepika Khullar</div>
+                    </div>
+                    <div class="overlap-group3">
+                        <div class="member-1">
+                            <!-- <img class="overlap-group3" src="/img/AbhijotSIngh.jpg" alt="Vector" /> -->
+                        </div>
+                        <div class="place-2">Abhijot Singh</div>
+                    </div>
+                </div>
+                <div class="flex-row-1">
+                    <div class="flex-row-2">
+                        <div class="flex-col-1">
+                            <div class="ml-care roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector-2" src="/img/vector-343=@2x.svg" alt="Vector" />
+                                <img class="vector-3" src="/img/vector-344@2x.svg" alt="Vector" />
+                                <img class="vector-4" src="/img/vector-345@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col-2">
+                <div class="navbar-link-container">
+                    <a href="home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+
+                    <% if(!currentUser) {%>
+                        <a href="sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+                <div class="about-us-1 roboto-black-metallic-seaweed-64px">ABOUT US</div>
+            </div>
+            <div class="flex-col-3">
+                <div class="rectangle-161"><img src="/img/vision.jpg" class="rectangle-163" alt=""></div>
+                <div class="our-goals">Our Goals</div>
+            </div>
+            <div class="flex-col-4">
+                <div class="rectangle-163"><img src="/img/goals.jpg" class="rectangle-163" alt=""></div>
+                <div class="our-process">Our Process</div>
+            </div>
+            <div class="rectangle-162"><img src="/img/Process.jpg" class="rectangle-163" alt=""></div>
+            <div class="flex-col-5">
+                <div class="our-vision">Our Vision</div>
+                <p class="lorem-ipsum-dolor-si opensans-semi-bold-black-24px">
+                    is a leading integrated healthcare services provider in India. It is one of the largest healthcare organisations in the country with 36 healthcare facilities (including projects under development), 4000 operational beds and over 400 diagnostics centres
+                    (including JVs).
+                </p>
+            </div>
+            <p class="lorem-ipsum-dolor-si-1 opensans-semi-bold-black-24px">
+                We have a deeper level of patient understanding and are always empathetic to their needs. This encourages a culture of providing a higher standard of patient-centred care. We respect each other and our patients, and ensure that their needs are met with
+                dignity. We rise to the occasion each time for we recognise the positive social impact we can create.
+            </p>
+            <p class="lorem-ipsum-dolor-si-2 opensans-semi-bold-black-24px">
+                We ask more of ourselves and are always<br /> passionate about achieving the highest standards of medical <br />expertise and patient care. We understand that<br /> being the best is a continuous journey of becoming<br /> better versions
+                of ourselves every day.
+            </p>
+        </div>
+    </div>
+    </body>
+
+    </html>

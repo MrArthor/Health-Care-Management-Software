@@ -1,0 +1,85 @@
+<% layout('Layout/boilerplate')%>
+    <input type="hidden" id="anPageName" name="page" value="add-volunteer" />
+    <div class="container-center-horizontal">
+        <div class="add-volunteer screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <% if(!currentUser) {%>
+                        <a href="sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+            </div>
+            <form action="/Volunteer/add-volunteer" method="post">
+                <div class="flex-row">
+                    <div class="sign-up-as roboto-black-metallic-seaweed-64px">SIGN UP AS</div>
+                    <div class="volunteer">VOLUNTEER</div>
+                </div>
+                <div class="full-name roboto-bold-scooter-32px">FULL&nbsp;&nbsp;NAME</div>
+                <input class="rectangle-5" type="text" name="Volunteer[name]"></input>
+                <div class="email-id roboto-bold-scooter-32px">EMAIL&nbsp;&nbsp;ID</div>
+                <input class="rectangle-12" type="email" name="Volunteer[email]"></input>
+                <div class="password roboto-bold-scooter-32px">PASSWORD</div>
+                <input class="rectangle-165" type="password" name="Volunteer[password]"></input>
+                <p class="date-of-birth roboto-bold-scooter-32px">DATE&nbsp;&nbsp;OF&nbsp;&nbsp;BIRTH</p>
+                <input class="rectangle-166" type="date" name="Volunteer[date]"></input>
+                <div class="contact-number roboto-bold-scooter-32px">CONTACT NUMBER</div>
+                <input class="rectangle-167" type="number" name="Volunteer[number]"></input>
+                <div class="address roboto-bold-scooter-32px">ADDRESS</div>
+                <input class="rectangle-168" type="text" name="Volunteer[address]"></input>
+                <div class="type-of-user roboto-bold-scooter-32px">TYPE OF USER</div>
+                <input class="rectangle-169" type="text" name="Volunteer[type]"></input>
+                <button class="overlap-group2" type="submit">
+                        <input class="rectangle-164"></input>
+                    <div class="sign-up roboto-bold-black-squeeze-32px">SIGN UP</div>
+                    </button>
+            </form>
+            <div class="footer">
+                <div class="flex-row-1">
+                    <div class="flex-row-2">
+                        <div class="flex-col">
+                            <div class="ml-care roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector" src="img/vector-352@2x.svg" alt="Vector" />
+                                <img class="vector-1" src="img/vector-353@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="img/vector-354@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

@@ -1,0 +1,466 @@
+/* screen - patient-portal-lab-tests */
+
+.patient-portal-lab-tests {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  height: 2071px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.patient-portal-lab-tests .overlap-group15 {
+  height: 1940px;
+  margin-top: 131px;
+  position: relative;
+  width: 1474px;
+  z-index: 1;
+}
+
+.patient-portal-lab-tests .overlap-group-2 {
+  align-items: center;
+  background-color: var(--greenl4);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #c0f689;
+  display: flex;
+  height: 84px;
+  left: 156px;
+  min-width: 315px;
+  padding: 0 42px;
+  position: absolute;
+  top: 6px;
+}
+
+.patient-portal-lab-tests .avatar-image-60 {
+  background-image: url(../img/avatar---image-60-18@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  left: 1328px;
+  position: absolute;
+  top: 8px;
+  width: 75px;
+}
+
+.patient-portal-lab-tests .markus-mcgill {
+  left: 1249px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+}
+
+.patient-portal-lab-tests .bell {
+  height: 88px;
+  left: 1131px;
+  position: absolute;
+  top: 10px;
+  width: 82px;
+}
+
+.patient-portal-lab-tests .overlap-group5 {
+  height: 1940px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1474px;
+}
+
+.patient-portal-lab-tests .sidebar {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 1492px;
+  left: 12px;
+  min-width: 120px;
+  position: absolute;
+  top: 0;
+}
+
+.patient-portal-lab-tests .overlap-group1 {
+  align-items: center;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1219px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.patient-portal-lab-tests .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.patient-portal-lab-tests .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.patient-portal-lab-tests .emr {
+  cursor: pointer;
+  height: 34px;
+  margin-left: 1.0px;
+  margin-top: 48px;
+  width: 33px;
+}
+
+.patient-portal-lab-tests .calendar {
+  cursor: pointer;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-lab-tests .overlap-group-3 {
+  align-items: flex-end;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 67px;
+  justify-content: flex-end;
+  margin-top: 23px;
+  min-width: 56px;
+  padding: 7px 17px;
+}
+
+.patient-portal-lab-tests .lab {
+  height: 46px;
+  width: 21px;
+}
+
+.patient-portal-lab-tests .bill {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 30px;
+  width: 43px;
+}
+
+.patient-portal-lab-tests .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-lab-tests .chat {
+  cursor: pointer;
+  height: 34px;
+  margin-left: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-lab-tests .setting {
+  cursor: pointer;
+  height: 31px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.patient-portal-lab-tests .flex-row {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  left: 0;
+  min-width: 1440px;
+  padding: 105px 138px;
+  position: absolute;
+  top: 1333px;
+}
+
+.patient-portal-lab-tests .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.patient-portal-lab-tests .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.patient-portal-lab-tests .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.patient-portal-lab-tests .vector-1 {
+  height: 50px;
+  width: 49px;
+}
+
+.patient-portal-lab-tests .vector-2 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.patient-portal-lab-tests .vector-3 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.patient-portal-lab-tests .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}
+
+.patient-portal-lab-tests .overlap-group4 {
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  left: 156px;
+  min-height: 792px;
+  padding: 19px 0;
+  position: absolute;
+  top: 191px;
+  width: 1228px;
+}
+
+.patient-portal-lab-tests .overlap-group14 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  min-width: 1194px;
+  padding: 13px 519px;
+}
+
+.patient-portal-lab-tests .lab-reports {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 156px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-portal-lab-tests .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 75px;
+  height: 138px;
+  margin-right: 5.0px;
+  margin-top: 31px;
+  min-width: 1183px;
+}
+
+.patient-portal-lab-tests .overlap-group {
+  align-self: flex-end;
+  height: 135px;
+  position: relative;
+  width: 554px;
+}
+
+.patient-portal-lab-tests .rectangle-8 {
+  background-color: var(--grey1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 554px;
+}
+
+.patient-portal-lab-tests .report {
+  height: 108px;
+  left: 2px;
+  position: absolute;
+  top: 14px;
+  width: 96px;
+}
+
+.patient-portal-lab-tests .vector {
+  height: 60px;
+  left: 494px;
+  position: absolute;
+  top: 75px;
+  width: 60px;
+}
+
+.patient-portal-lab-tests .dr-cary-acquiger {
+  left: 144px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+}
+
+.patient-portal-lab-tests .sunday-22-november {
+  left: 144px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 89px;
+  white-space: nowrap;
+}
+
+.patient-portal-lab-tests .link {
+  height: 15px;
+  left: 122px;
+  position: absolute;
+  top: 16px;
+  width: 14px;
+}
+
+.patient-portal-lab-tests .kidney-function-test {
+  left: 122px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.patient-portal-lab-tests .clock {
+  height: 11px;
+  left: 125px;
+  position: absolute;
+  top: 98px;
+  width: 11px;
+}
+
+.patient-portal-lab-tests .dots {
+  height: 16px;
+  left: 538px;
+  position: absolute;
+  top: 14px;
+  width: 4px;
+}
+
+.patient-portal-lab-tests .overlap-group-1 {
+  height: 135px;
+  position: relative;
+  width: 554px;
+}
+
+.patient-portal-lab-tests .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 75px;
+  height: 138px;
+  margin-right: 5.0px;
+  margin-top: 33px;
+  min-width: 1183px;
+}
+
+.patient-portal-lab-tests .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.patient-portal-lab-tests .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.patient-portal-lab-tests .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.patient-portal-lab-tests .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.patient-portal-lab-tests .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.patient-portal-lab-tests .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.patient-portal-lab-tests .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.patient-portal-lab-tests .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}

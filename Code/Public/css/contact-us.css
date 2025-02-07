@@ -1,0 +1,392 @@
+/* screen - contact-us */
+
+.contact-us {
+  align-items: center;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2991px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.contact-us .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.contact-us .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.contact-us .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.contact-us .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.contact-us .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.contact-us .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.contact-us .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.contact-us .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.contact-us .contact-us-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 116px;
+  min-height: 75px;
+  min-width: 388px;
+  z-index: 3;
+}
+
+.contact-us .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 40px;
+  height: 953px;
+  margin-left: 35.0px;
+  margin-top: 105px;
+  min-width: 1259px;
+  z-index: 1;
+}
+
+.contact-us .flex-row {
+  align-items: flex-start;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  gap: 26px;
+  height: 422px;
+  min-width: 383px;
+  padding: 38px 32px;
+}
+
+.contact-us .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 302px;
+  width: 41px;
+}
+
+.contact-us .vector {
+  height: 41px;
+  width: 41px;
+}
+
+.contact-us .icon-mail {
+  height: 32px;
+  margin-left: 1px;
+  margin-top: 94px;
+  width: 40px;
+}
+
+.contact-us .icon-location_pin {
+  height: 49px;
+  margin-left: 4px;
+  margin-top: 86px;
+  width: 34px;
+}
+
+.contact-us .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 330px;
+  width: 242px;
+}
+
+.contact-us .phone-number {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 42px;
+}
+
+.contact-us .phone {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .flex-col-item {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 60px;
+  min-height: 42px;
+}
+
+.contact-us .hmsgmailcom {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .address {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .overlap-group3 {
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 953px;
+  padding: 24px 0;
+  width: 836px;
+}
+
+.contact-us .send-message {
+  align-self: flex-start;
+  color: var(--blued4);
+  font-family: var(--font-family-roboto);
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 59px;
+  min-height: 56px;
+}
+
+.contact-us .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 61px;
+  margin-top: 33px;
+  min-width: 718px;
+  padding: 16px 20px;
+}
+
+.contact-us .full-name {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 61px;
+  margin-top: 51px;
+  min-width: 718px;
+  padding: 16px 20px;
+}
+
+.contact-us .email-id {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .overlap-group {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 61px;
+  margin-top: 67px;
+  min-width: 718px;
+  padding: 16px 20px;
+}
+
+.contact-us .phone-number-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .subject {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 191px;
+  margin-top: 67px;
+  min-width: 718px;
+  padding: 16px 20px;
+}
+
+.contact-us .your-message-here {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+}
+
+.contact-us .overlap-group7 {
+  align-self: flex-start;
+  border-radius: 40px;
+  height: 72px;
+  margin-left: 59px;
+  margin-top: 32px;
+  position: relative;
+  width: 274px;
+}
+
+.contact-us .rectangle-164 {
+  background-color: var(--blued2);
+  border-radius: 40px;
+  cursor: pointer;
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.contact-us .submit {
+  left: 82px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+}
+
+.contact-us .find-us-on-google-maps {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1.0px;
+  margin-top: 255px;
+  min-height: 75px;
+  min-width: 709px;
+  z-index: 4;
+}
+
+.contact-us .footer {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  margin-top: 805px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.contact-us .flex-row-1 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.contact-us .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.contact-us .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.contact-us .ml-care {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 113px;
+}
+
+.contact-us .flex-row-3 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.contact-us .vector-1 {
+  height: 50px;
+  width: 49px;
+}
+
+.contact-us .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

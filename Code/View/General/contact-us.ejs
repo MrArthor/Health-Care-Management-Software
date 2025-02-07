@@ -1,0 +1,103 @@
+<% layout('Layout/boilerplate')%>
+
+    <input type="hidden" id="anPageName" name="page" value="contact-us" />
+    <div class="container-center-horizontal">
+        <div class="contact-us screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <a href="/contact-us"></a>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <% if(!currentUser) {%>
+                        <a href="/sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+            </div>
+            <div class="contact-us-1 roboto-black-metallic-seaweed-64px">CONTACT US</div>
+            <div class="overlap-group-container">
+                <div class="flex-row">
+                    <div class="flex-col">
+                        <img class="vector" src="/img/vector-3@2x.svg" alt="Vector" />
+                        <img class="icon-mail" src="/img/vector-4@2x.svg" alt="icon-mail" />
+                        <img class="icon-location_pin" src="/img/vector-5@2x.svg" alt="icon-location_pin" />
+                    </div>
+                    <div class="flex-col-1">
+                        <div class="phone-number roboto-bold-eastern-blue-36px">Phone Number</div>
+                        <div class="phone roboto-bold-black-24px">+91-8856723001</div>
+                        <div class="flex-col-item roboto-bold-eastern-blue-36px">Email Address</div>
+                        <div class="hmsgmailcom roboto-bold-black-24px">hms@gmail.com</div>
+                        <div class="flex-col-item roboto-bold-eastern-blue-36px">Location</div>
+                        <div class="address roboto-bold-black-24px">34 Avenue, 6th Street</div>
+                    </div>
+                </div>
+                <div class="overlap-group3">
+                    <div class="send-message">Send Message</div>
+                    <div class="overlap-group5">
+                        <div class="full-name roboto-normal-gray-24px">Full name</div>
+                    </div>
+                    <div class="overlap-group9">
+                        <div class="email-id roboto-normal-gray-24px">Email ID</div>
+                    </div>
+                    <div class="overlap-group">
+                        <div class="phone-number-1 roboto-normal-gray-24px">Phone number</div>
+                    </div>
+                    <div class="overlap-group">
+                        <div class="subject roboto-normal-gray-24px">Subject</div>
+                    </div>
+                    <div class="overlap-group6">
+                        <div class="your-message-here roboto-normal-gray-24px">Your Message Here...</div>
+                    </div>
+                    <div class="overlap-group7">
+                        <a href="/home-page">
+                            <div class="rectangle-164"></div>
+                        </a>
+                        <div class="submit roboto-bold-black-squeeze-32px">SUBMIT</div>
+                    </div>
+                </div>
+            </div>
+            <p class="find-us-on-google-maps roboto-black-metallic-seaweed-64px">Find Us On Google Maps</p>
+            <div class="footer">
+                <div class="flex-row-1">
+                    <div class="flex-row-2">
+                        <div class="flex-col-2">
+                            <div class="ml-care roboto-black-white-96px">ML CARE</div>
+                            <div class="flex-row-3">
+                                <img class="vector-1" src="/img/vector@2x.svg" alt="Vector" />
+                                <img class="icon-facebook" src="/img/vector-1@2x.svg" alt="icon-facebook" />
+                                <img class="icon-twitter" src="/img/vector-2@2x.svg" alt="icon-twitter" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

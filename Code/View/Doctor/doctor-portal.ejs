@@ -1,0 +1,197 @@
+<% layout('Layout/boilerplate')%>
+
+    <input type="hidden" id="anPageName" name="page" value="doctor-portal" />
+    <div class="container-center-horizontal">
+        <div class="doctor-portal screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <a href="/logout">
+
+                        <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">Log Out</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="overlap-group4">
+                    <div class="ml-care roboto-black-black-squeeze-24px">ML<br />CARE</div>
+                    <div class="overlap-group7"><img class="home" src="/img/home@2x.svg" alt="home" /></div>
+                    <a href="/Doctor/<%=Doctor._id  %>/doctor-portal-patient-list"><img class="vector" src="/img/vector@2x.svg" alt="Vector" /> </a>
+                    <a href="/Doctor/<%=Doctor._id  %>/doctor-portal-calendar"><img class="calendar" src="/img/calendar@2x.svg" alt="calendar" /> </a>
+                    <a href="/Doctor/<%=Doctor._id  %>/doctor-portal-feedback"><img class="feedback" src="/img/feedback@2x.svg" alt="feedback" /> </a>
+                    <a href="/Doctor/<%=Doctor._id  %>/doctor-portal-chat-choose"><img class="chat" src="/img/chat@2x.svg" alt="chat" /> </a>
+
+                </div>
+                <div class="flex-col-2">
+                    <div class="flex-col-3">
+                        <div class="flex-row-1">
+                            <div class="greetings roboto-black-atlantis-64px">Greetings!</div>
+                            <img class="bell" src="/img/bell@2x.svg" alt="bell" />
+                            <div class="flex-col-4">
+                                <div class="dr-ak-mehta opensans-bold-black-16px">
+                                    <%=Doctor.UserDetails.Name %>
+                                </div>
+                                <div class="sur-102 opensans-bold-olive-drab-14px">
+                                    <%=Doctor._id  %>
+                                </div>
+                            </div>
+                            <div class="avatar-image-60"></div>
+                        </div>
+                        <div class="dr-ak-mehta-1 roboto-black-pine-tree-72px">
+                            <%=Doctor.UserDetails.Name %>
+                        </div>
+                    </div>
+                    <div class="flex-row-2">
+                        <div class="overlap-group-container-1">
+                            <div class="overlap-group-container">
+                                <div class="overlap-group8">
+                                    <div class="active-patients roboto-bold-black-squeeze-24px">ACTIVE PATIENTS</div>
+                                </div>
+                                <div class="overlap-group">
+                                    <div class="rectangle"></div>
+                                    <a href="/Doctor/<%=Doctor._id%>/doctor-portal-patient-list">
+
+                                        <img class="vector" src="/img/vector-10@2x.svg" alt="Vector" />
+                                        <div class="address roboto-bold-metallic-seaweed-40px">
+                                            <%=Doctor.NoOfPatients %> Active Patients</div>
+                                    </a>
+                                    <img class="vector-2" src="/img/vector-17@2x.svg" alt="Vector" />
+                                </div>
+                            </div>
+                            <div class="overlap-group-container">
+                                <div class="overlap-group10">
+                                    <div class="scheduled-lab-tests roboto-bold-black-squeeze-24px"><a href="http://127.0.0.1:5000/"> SCHEDULED LAB TESTS</a></div>
+                                </div>
+                                <div class="overlap-group">
+                                    <div class="rectangle"></div>
+                                    <img class="vector" src="/img/vector-11@2x.svg" alt="Vector" />
+                                    <div class="address-1 roboto-bold-metallic-seaweed-40px">
+                                        <%= Doctor.TestsScheduled  %> Scheduled Tests</div>
+                                    <img class="lab" src="/img/lab@2x.svg" alt="lab" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overlap-group3">
+                            <div class="rectangle-80"></div>
+                            <div class="rectangle-84"></div>
+                            <div class="calendar-1 roboto-bold-black-squeeze-24px">CALENDAR</div>
+                            <div class="november-2022 roboto-bold-metallic-seaweed-20px">
+                                <%=MonthName  %>
+                                    <%=Year  %>
+                            </div>
+                            <img class="vector-3" src="/img/vector-12@2x.svg" alt="Vector" />
+                            <img class="vector-4" src="/img/vector-13@2x.svg" alt="Vector" />
+                            <div class="calendar-2">
+                                <div class="flex-col">
+                                    <div class="sun-19 roboto-bold-west-side-16px">SUN<br />19</div>
+                                    <div class="cal-pill">
+                                        <div class="ellipse-10"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-col-5">
+                                    <div class="mon-20 roboto-black-japanese-laurel-20px">MON<br />20</div>
+                                    <div class="cal-pill-1">
+                                        <div class="ellipse-10-1"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-col">
+                                    <div class="tue-21 roboto-bold-west-side-16px">TUE<br />21</div>
+                                    <div class="cal-pill">
+                                        <div class="ellipse-10"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-col">
+                                    <div class="wed-22 roboto-bold-west-side-16px">WED<br />22</div>
+                                    <div class="cal-pill">
+                                        <div class="ellipse-10"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-col-6">
+                                    <div class="thu-23 roboto-black-japanese-laurel-20px">THU<br />23</div>
+                                    <div class="cal-pill-1">
+                                        <div class="ellipse-10-1"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-col-1">
+                                    <div class="fri-24 roboto-bold-west-side-16px">FRI<br />24</div>
+                                    <div class="cal-pill">
+                                        <div class="ellipse-10"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-col-1">
+                                    <div class="sat-25 roboto-bold-west-side-16px">SAT<br />25</div>
+                                    <div class="cal-pill">
+                                        <div class="ellipse-10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="vector-5" src="/img/vector-14@2x.svg" alt="Vector" />
+                        </div>
+                    </div>
+                    <div class="overlap-group2">
+                        <div class="overlap-group14">
+                            <div class="vitals roboto-bold-black-squeeze-24px">VITALS</div>
+                        </div>
+                        <div class="overlap-group-container-2">
+                            <div class="overlap-group1">
+                                <div class="overlap-group-1"><img class="vector-6" src="/img/vector-15@2x.svg" alt="Vector" /></div>
+                                <div class="temperature roboto-bold-black-20px">TEMPERATURE</div>
+                                <div class="x91-c roboto-black-west-side-32px">
+                                    <%=Doctor.Temperature  %> C</div>
+                            </div>
+                            <div class="overlap-group1">
+                                <div class="overlap-group1-1"><img class="vector-7" src="/img/vector-18@2x.svg" alt="Vector" /></div>
+                                <div class="pulse-rate roboto-bold-black-20px">PULSE RATE</div>
+                                <div class="number roboto-black-west-side-32px">
+                                    <%=Doctor.PulseRate  %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="flex-row-3">
+                    <div class="flex-row-4">
+                        <div class="flex-col-7">
+                            <div class="ml-care-1 roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector-8" src="/img/vector-19@2x.svg" alt="Vector" />
+                                <img class="vector-9" src="/img/vector-20@2x.svg" alt="Vector" />
+                                <img class="vector-10" src="/img/vector-21@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

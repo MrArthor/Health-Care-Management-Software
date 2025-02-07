@@ -1,0 +1,123 @@
+<% layout('Layout/boilerplate')%>
+
+    <input type="hidden" id="anPageName" name="page" value="volunteer-study-portal" />
+    <div class="container-center-horizontal">
+        <div class="volunteer-study-portal screen">
+            <div class="navbartop">
+                <div class="navbar-link-container">
+                    <a href="/home-page" class="align-self-flex-start">
+                        <div class="navbar-link-ml-care roboto-black-white-24px">ML CARE</div>
+                    </a>
+                    <a href="/about-us">
+                        <div class="navbar-link-about-us opensans-bold-white-16px">ABOUT US</div>
+                    </a>
+                    <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
+                    <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
+                    <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
+                    <% if(!currentUser) {%>
+                        <a href="/sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="sidebar-doc">
+                    <div class="ml-care roboto-black-black-squeeze-24px">ML<br />CARE</div>
+                    <div class="overlap-group1"><img class="home" src="/img/home@2x.svg" alt="home" /></div>
+                </div>
+                <div class="flex-col">
+                    <div class="flex-row-1">
+                        <div class="hi-sajal roboto-black-atlantis-64px">Hi, SAJAL!</div>
+                        <img class="bell" src="/img/bell-30@2x.svg" alt="bell" />
+                        <div class="flex-col-1">
+                            <div class="sajal-varshney opensans-bold-black-16px">SAJAL VARSHNEY</div>
+                            <div class="volunteer opensans-bold-olive-drab-14px">Volunteer</div>
+                        </div>
+                        <input class="avatar-image-60"></input>
+                    </div>
+                    <div class="flex-row-2">
+                        <div class="overlap-group-container">
+                            <div class="overlap-group10">
+                                <img class="image-2" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic roboto-black-black-24px">TOPIC</div>
+                            </div>
+                            <div class="overlap-group8">
+                                <img class="image-3" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-1 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                            <div class="overlap-group11">
+                                <img class="image-4" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-2 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                        </div>
+                        <div class="overlap-group-container-1">
+                            <div class="overlap-group">
+                                <img class="image" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic roboto-black-black-24px">TOPIC</div>
+                            </div>
+                            <div class="overlap-group6">
+                                <img class="image-5" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-1 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                            <div class="overlap-group7">
+                                <img class="image-1" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-2 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                        </div>
+                        <div class="overlap-group-container-2">
+                            <div class="overlap-group">
+                                <img class="image" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-3 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                            <div class="overlap-group4">
+                                <img class="image-6" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-4 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                            <div class="overlap-group5">
+                                <img class="image-1" src="/img/image-6@2x.svg" alt="image" />
+                                <div class="topic-5 roboto-black-black-24px">TOPIC</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="flex-row-3">
+                    <div class="flex-row-4">
+                        <div class="flex-col-2">
+                            <div class="ml-care-1 roboto-black-white-96px">ML CARE</div>
+                            <div class="vector-container">
+                                <img class="vector" src="/img/vector-328@2x.svg" alt="Vector" />
+                                <img class="vector-1" src="/img/vector-329@2x.svg" alt="Vector" />
+                                <img class="vector-2" src="/img/vector-330@2x.svg" alt="Vector" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-container inter-medium-white-24px">
+                            <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div>
+                            <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                        </div>
+                    </div>
+                    <div class="lorem-ipsum-container-1 inter-medium-white-24px">
+                        <!-- <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div>
+                        <div class="lorem-ipsum">Lorem Ipsum</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

@@ -1,0 +1,329 @@
+/* screen - doctor-portal-settings */
+
+.doctor-portal-settings {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.doctor-portal-settings .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.doctor-portal-settings .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.doctor-portal-settings .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.doctor-portal-settings .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.doctor-portal-settings .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.doctor-portal-settings .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.doctor-portal-settings .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.doctor-portal-settings .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.doctor-portal-settings .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 1065px;
+  margin-left: 12px;
+  margin-top: 131px;
+  min-width: 1391px;
+  z-index: 1;
+}
+
+.doctor-portal-settings .sidebar-doc {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1065px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.doctor-portal-settings .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.doctor-portal-settings .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.doctor-portal-settings .vector {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 51px;
+  width: 41px;
+}
+
+.doctor-portal-settings .calendar {
+  cursor: pointer;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 40px;
+  width: 33px;
+}
+
+.doctor-portal-settings .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 46px;
+  width: 33px;
+}
+
+.doctor-portal-settings .chat {
+  cursor: pointer;
+  height: 34px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.doctor-portal-settings .overlap-group1 {
+  align-items: center;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 47px;
+  justify-content: flex-end;
+  margin-right: 4.0px;
+  margin-top: 29px;
+  min-width: 52px;
+  padding: 0 9px;
+}
+
+.doctor-portal-settings .setting {
+  height: 31px;
+  width: 33px;
+}
+
+.doctor-portal-settings .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 698px;
+  width: 1247px;
+}
+
+.doctor-portal-settings .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  min-width: 1247px;
+}
+
+.doctor-portal-settings .dr-ak-mehta {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 22.0px;
+  min-width: 490px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 465px;
+  width: 82px;
+}
+
+.doctor-portal-settings .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 11.0px;
+  margin-left: 12px;
+  min-height: 35px;
+  width: 114px;
+}
+
+.doctor-portal-settings .dr-ak-mehta-1 {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-width: 114px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-26@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 9px;
+  width: 75px;
+}
+
+.doctor-portal-settings .under-construction {
+  height: 363px;
+  margin-right: 120.0px;
+  margin-top: 129px;
+  width: 391px;
+}
+
+.doctor-portal-settings .surname {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 120.0px;
+  margin-top: 88px;
+  min-width: 883px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 169px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.doctor-portal-settings .flex-row-2 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.doctor-portal-settings .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.doctor-portal-settings .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.doctor-portal-settings .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.doctor-portal-settings .vector-1 {
+  height: 50px;
+  width: 49px;
+}
+
+.doctor-portal-settings .vector-2 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.doctor-portal-settings .vector-3 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.doctor-portal-settings .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

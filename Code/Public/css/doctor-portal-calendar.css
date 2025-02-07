@@ -1,0 +1,771 @@
+/* screen - doctor-portal-calendar */
+
+.doctor-portal-calendar {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.doctor-portal-calendar .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.doctor-portal-calendar .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.doctor-portal-calendar .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.doctor-portal-calendar .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.doctor-portal-calendar .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.doctor-portal-calendar .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.doctor-portal-calendar .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.doctor-portal-calendar .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.doctor-portal-calendar .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 1065px;
+  margin-left: 12px;
+  margin-top: 131px;
+  min-width: 1391px;
+  z-index: 1;
+}
+
+.doctor-portal-calendar .sidebar-doc {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1065px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.doctor-portal-calendar .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.doctor-portal-calendar .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.doctor-portal-calendar .vector {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 51px;
+  width: 41px;
+}
+
+.doctor-portal-calendar .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 55px;
+  margin-top: 31px;
+  min-width: 56px;
+  padding: 8px 11px;
+}
+
+.doctor-portal-calendar .calendar {
+  height: 38px;
+  width: 33px;
+}
+
+.doctor-portal-calendar .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 38px;
+  width: 33px;
+}
+
+.doctor-portal-calendar .chat {
+  cursor: pointer;
+  height: 34px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.doctor-portal-calendar .setting {
+  cursor: pointer;
+  height: 31px;
+  margin-right: 3.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.doctor-portal-calendar .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  margin-top: 8px;
+  min-height: 1030px;
+  width: 1247px;
+}
+
+.doctor-portal-calendar .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  min-width: 1247px;
+}
+
+.doctor-portal-calendar .dr-ak-mehta {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 22.0px;
+  min-width: 490px;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 465px;
+  width: 82px;
+}
+
+.doctor-portal-calendar .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 11.0px;
+  margin-left: 12px;
+  min-height: 35px;
+  width: 114px;
+}
+
+.doctor-portal-calendar .dr-ak-mehta-1 {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-width: 114px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-25@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 9px;
+  width: 75px;
+}
+
+.doctor-portal-calendar .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 27px;
+  height: 878px;
+  min-width: 1247px;
+}
+
+.doctor-portal-calendar .overlap-group3 {
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  min-height: 434px;
+  padding: 18px 0;
+  width: 527px;
+}
+
+.doctor-portal-calendar .overlap-group5 {
+  align-items: center;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  min-width: 487px;
+  padding: 13px 19px;
+}
+
+.doctor-portal-calendar .november-2022 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 195px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .vector-1 {
+  height: 27px;
+  margin-bottom: 1.0px;
+  margin-left: 161px;
+  width: 27px;
+}
+
+.doctor-portal-calendar .vector-2 {
+  height: 27px;
+  margin-bottom: 1.0px;
+  margin-left: 36px;
+  width: 27px;
+}
+
+.doctor-portal-calendar .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 35px;
+  min-width: 423px;
+}
+
+.doctor-portal-calendar .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 33px;
+  min-width: 358px;
+}
+
+.doctor-portal-calendar .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 301px;
+}
+
+.doctor-portal-calendar .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  height: 303px;
+  min-width: 102px;
+}
+
+.doctor-portal-calendar .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  min-height: 303px;
+  width: 32px;
+}
+
+.doctor-portal-calendar .place {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 32px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .number {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 303px;
+  width: 38px;
+}
+
+.doctor-portal-calendar .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--darkg);
+  border-radius: 18.5px;
+  display: flex;
+  height: 37px;
+  margin-left: 1.0px;
+  margin-top: 23px;
+  min-width: 37px;
+  padding: 4px 9px;
+}
+
+.doctor-portal-calendar .flex-col-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-left: 31px;
+  min-height: 248px;
+  width: 30px;
+}
+
+.doctor-portal-calendar .flex-col-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-left: 35px;
+  min-height: 248px;
+  width: 34px;
+}
+
+.doctor-portal-calendar .flex-col-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 248px;
+  width: 37px;
+}
+
+.doctor-portal-calendar .overlap-group7 {
+  align-items: flex-start;
+  background-color: var(--darkg);
+  border-radius: 18.5px;
+  display: flex;
+  height: 37px;
+  justify-content: flex-end;
+  margin-top: 23px;
+  min-width: 37px;
+  padding: 4px 8px;
+}
+
+.doctor-portal-calendar .flex-col-7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  min-height: 248px;
+  width: 24px;
+}
+
+.doctor-portal-calendar .flex-col-8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  min-height: 248px;
+  width: 30px;
+}
+
+.doctor-portal-calendar .flex-col-9 {
+  align-items: flex-start;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  min-height: 878px;
+  padding: 18px 20px;
+  width: 693px;
+}
+
+.doctor-portal-calendar .flex-col-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 83px;
+  min-height: 243px;
+  width: 644px;
+}
+
+.doctor-portal-calendar .overlap-group-container-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 60px;
+  min-width: 639px;
+}
+
+.doctor-portal-calendar .overlap-group18 {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 45px;
+  margin-top: 5.0px;
+  min-width: 100px;
+  padding: 8px 11px;
+}
+
+.doctor-portal-calendar .overlap-group13 {
+  align-self: flex-end;
+  height: 47px;
+  margin-left: 18px;
+  position: relative;
+  width: 108px;
+}
+
+.doctor-portal-calendar .address {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .overlap-group14 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  gap: 19px;
+  height: 56px;
+  margin-left: 191px;
+  min-width: 222px;
+  padding: 13px 12px;
+}
+
+.doctor-portal-calendar .flex-row-6 {
+  align-items: center;
+  display: flex;
+  min-width: 644px;
+}
+
+.doctor-portal-calendar .text-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 2.0px;
+  min-width: 52px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .overlap-group20 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  margin-left: 73px;
+  min-width: 100px;
+  padding: 7px 8px;
+}
+
+.doctor-portal-calendar .overlap-group25 {
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgb(114.05, 178.5, 48.34) 0%, rgba(192.59, 246.5, 137.63, 0.87) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a0ee51b8;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 40px;
+  min-height: 100px;
+  padding: 7px 0;
+  width: 100px;
+}
+
+.doctor-portal-calendar .overlap-group {
+  align-self: center;
+  height: 44px;
+  margin-top: 19px;
+  position: relative;
+  width: 82px;
+}
+
+.doctor-portal-calendar .dr-cary-acquiger {
+  left: 7px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.doctor-portal-calendar .overlap-group19 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  margin-left: 39px;
+  min-width: 100px;
+  padding: 7px 9px;
+}
+
+.doctor-portal-calendar .overlap-group16 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  margin-left: 40px;
+  min-width: 100px;
+  padding: 7px 5px;
+}
+
+.doctor-portal-calendar .flex-row-7 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 644px;
+}
+
+.doctor-portal-calendar .flex-row-8 {
+  align-items: center;
+  display: flex;
+  gap: 73px;
+  height: 544px;
+  min-width: 225px;
+}
+
+.doctor-portal-calendar .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  min-height: 544px;
+  width: 100px;
+}
+
+.doctor-portal-calendar .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  min-width: 100px;
+  padding: 7px 8px;
+}
+
+.doctor-portal-calendar .overlap-group11 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  min-width: 100px;
+  padding: 7px 11px;
+}
+
+.doctor-portal-calendar .overlap-group-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-left: 40px;
+  min-height: 544px;
+  width: 100px;
+}
+
+.doctor-portal-calendar .overlap-group-2 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  min-width: 100px;
+  padding: 7px 9px;
+}
+
+.doctor-portal-calendar .overlap-group-3 {
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgb(114.05, 178.5, 48.34) 0%, rgba(192.59, 246.5, 137.63, 0.87) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a0ee51b8;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100px;
+  padding: 7px 0;
+  width: 100px;
+}
+
+.doctor-portal-calendar .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  min-width: 100px;
+  padding: 7px 12px;
+}
+
+.doctor-portal-calendar .flex-row-9 {
+  align-items: flex-start;
+  display: flex;
+  gap: 40px;
+  height: 544px;
+  margin-left: 39px;
+  min-width: 240px;
+}
+
+.doctor-portal-calendar .overlap-group-4 {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #d0d3d4;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  min-width: 100px;
+  padding: 7px 5px;
+}
+
+.doctor-portal-calendar .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 169px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.doctor-portal-calendar .flex-row-10 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.doctor-portal-calendar .flex-row-11 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.doctor-portal-calendar .flex-col-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.doctor-portal-calendar .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.doctor-portal-calendar .vector-3 {
+  height: 50px;
+  width: 49px;
+}
+
+.doctor-portal-calendar .vector-4 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.doctor-portal-calendar .vector-5 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.doctor-portal-calendar .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

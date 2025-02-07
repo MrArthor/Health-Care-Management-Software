@@ -1,0 +1,714 @@
+/* screen - doctor-portal-settings-hover */
+
+.doctor-portal-settings-hover {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.doctor-portal-settings-hover .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.doctor-portal-settings-hover .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.doctor-portal-settings-hover .navbar-link-ml-care {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.doctor-portal-settings-hover .navbar-link-about-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.doctor-portal-settings-hover .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.doctor-portal-settings-hover .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.doctor-portal-settings-hover .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.doctor-portal-settings-hover .navbar-link-sign-uplog-in {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.doctor-portal-settings-hover .flex-row {
+  align-items: flex-end;
+  display: flex;
+  gap: 21px;
+  height: 1065px;
+  margin-left: 12px;
+  margin-top: 131px;
+  min-width: 1391px;
+  z-index: 1;
+}
+
+.doctor-portal-settings-hover .sidebar-doc {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1065px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.doctor-portal-settings-hover .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.doctor-portal-settings-hover .home {
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.doctor-portal-settings-hover .vector-1 {
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 51px;
+  width: 41px;
+}
+
+.doctor-portal-settings-hover .calendar {
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 40px;
+  width: 33px;
+}
+
+.doctor-portal-settings-hover .feedback {
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 46px;
+  width: 33px;
+}
+
+.doctor-portal-settings-hover .chat {
+  height: 34px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.doctor-portal-settings-hover .overlap-group1-1 {
+  align-self: flex-end;
+  height: 62px;
+  margin-right: -152px;
+  margin-top: 18px;
+  position: relative;
+  width: 243px;
+}
+
+.doctor-portal-settings-hover .rectangle-102 {
+  background: linear-gradient(180deg, rgb(219.94, 132.55, 7.33) 0%, rgb(251.81, 200.93, 128) 100%);
+  border: 1px none;
+  border-radius: 0px 5px 5px 0px;
+  height: 52px;
+  left: 62px;
+  position: absolute;
+  top: 5px;
+  width: 181px;
+}
+
+.doctor-portal-settings-hover .chat-1 {
+  left: 127px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .setting {
+  height: 38px;
+  left: 14px;
+  position: absolute;
+  top: 12px;
+  width: 40px;
+}
+
+.doctor-portal-settings-hover .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 1057px;
+  width: 1250px;
+}
+
+.doctor-portal-settings-hover .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-left: 3px;
+  min-height: 135px;
+  width: 1247px;
+}
+
+.doctor-portal-settings-hover .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  min-width: 1247px;
+}
+
+.doctor-portal-settings-hover .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 654px;
+  width: 82px;
+}
+
+.doctor-portal-settings-hover .flex-col-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 11.0px;
+  margin-left: 12px;
+  min-height: 35px;
+  width: 114px;
+}
+
+.doctor-portal-settings-hover .dr-ak-mehta {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-width: 114px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-37@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 9px;
+  width: 75px;
+}
+
+.doctor-portal-settings-hover .dr-ak-mehta-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 555px;
+  margin-left: 1px;
+  margin-top: 81px;
+  min-width: 1226px;
+}
+
+.doctor-portal-settings-hover .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  min-height: 555px;
+  width: 674px;
+}
+
+.doctor-portal-settings-hover .overlap-group-container {
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  min-height: 259px;
+  padding: 12px 0;
+  width: 674px;
+}
+
+.doctor-portal-settings-hover .overlap-group8 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  margin-top: 6px;
+  min-width: 640px;
+  padding: 13px 220px;
+}
+
+.doctor-portal-settings-hover .overlap-group {
+  height: 136px;
+  margin-right: 1.0px;
+  position: relative;
+  width: 637px;
+}
+
+.doctor-portal-settings-hover .rectangle {
+  background-color: var(--grey1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 637px;
+}
+
+.doctor-portal-settings-hover .vector {
+  height: 60px;
+  left: 574px;
+  position: absolute;
+  top: 76px;
+  width: 60px;
+}
+
+.doctor-portal-settings-hover .address {
+  left: 154px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 46px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .vector-2 {
+  height: 99px;
+  left: 12px;
+  position: absolute;
+  top: 16px;
+  width: 123px;
+}
+
+.doctor-portal-settings-hover .overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  margin-top: 6px;
+  min-width: 640px;
+  padding: 13px 187px;
+}
+
+.doctor-portal-settings-hover .address-1 {
+  left: 153px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 46px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .lab {
+  height: 106px;
+  left: 29px;
+  position: absolute;
+  top: 13px;
+  width: 70px;
+}
+
+.doctor-portal-settings-hover .overlap-group5 {
+  height: 429px;
+  position: relative;
+  width: 530px;
+}
+
+.doctor-portal-settings-hover .rectangle-80 {
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  height: 422px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 527px;
+}
+
+.doctor-portal-settings-hover .rectangle-84 {
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  height: 56px;
+  left: 20px;
+  position: absolute;
+  top: 18px;
+  width: 487px;
+}
+
+.doctor-portal-settings-hover .calendar-1 {
+  left: 202px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .november-2022 {
+  left: 184px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 102px;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .vector-3 {
+  height: 20px;
+  left: 147px;
+  position: absolute;
+  top: 107px;
+  width: 20px;
+}
+
+.doctor-portal-settings-hover .vector-4 {
+  height: 20px;
+  left: 359px;
+  position: absolute;
+  top: 107px;
+  width: 20px;
+}
+
+.doctor-portal-settings-hover .calendar-2 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 41px;
+  height: 187px;
+  left: 14px;
+  overflow: hidden;
+  position: absolute;
+  top: 171px;
+  width: 500px;
+}
+
+.doctor-portal-settings-hover .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-top: 2px;
+  min-height: 171px;
+  width: 48px;
+}
+
+.doctor-portal-settings-hover .cal-pill {
+  align-items: flex-end;
+  background-color: var(--grey1);
+  border-radius: 30px;
+  box-shadow: 0px 15px 24px #00000026;
+  display: flex;
+  height: 105px;
+  min-width: 48px;
+  padding: 7px 6px;
+}
+
+.doctor-portal-settings-hover .flex-col-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  min-height: 173px;
+  width: 48px;
+}
+
+.doctor-portal-settings-hover .cal-pill-1 {
+  align-items: flex-start;
+  background-color: var(--greenl4);
+  border-radius: 30px;
+  box-shadow: 0px 8px 24px #a0ee519e;
+  display: flex;
+  height: 105px;
+  min-width: 48px;
+  padding: 6px;
+}
+
+.doctor-portal-settings-hover .flex-col-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: -1px;
+  min-height: 174px;
+  width: 48px;
+}
+
+.doctor-portal-settings-hover .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 4px;
+  min-height: 169px;
+  width: 48px;
+}
+
+.doctor-portal-settings-hover .vector-5 {
+  height: 60px;
+  left: 470px;
+  position: absolute;
+  top: 369px;
+  width: 60px;
+}
+
+.doctor-portal-settings-hover .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-top: 64px;
+  min-height: 222px;
+  padding: 18px;
+  width: 1224px;
+}
+
+.doctor-portal-settings-hover .overlap-group11 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  min-width: 1185px;
+  padding: 13px 552px;
+}
+
+.doctor-portal-settings-hover .overlap-group-container-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 70px;
+  margin-left: 1px;
+  min-width: 1184px;
+}
+
+.doctor-portal-settings-hover .overlap-group1 {
+  align-items: center;
+  background-color: var(--grey1);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  display: flex;
+  height: 61px;
+  min-width: 557px;
+  padding: 11px 17px;
+}
+
+.doctor-portal-settings-hover .overlap-group-1 {
+  align-items: center;
+  align-self: flex-end;
+  background: linear-gradient(180deg, rgb(250, 153, 14) 0%, rgb(252.88, 238.15, 217.05) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px #fbc880;
+  display: flex;
+  height: 38px;
+  min-width: 39px;
+  padding: 0 13px;
+}
+
+.doctor-portal-settings-hover .vector-6 {
+  height: 24px;
+  width: 12px;
+}
+
+.doctor-portal-settings-hover .temperature {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 20px;
+  min-width: 140px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .x91-c {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 240px;
+  min-width: 67px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .overlap-group1-2 {
+  align-items: flex-end;
+  align-self: flex-end;
+  background: linear-gradient(180deg, rgb(250, 153, 14) 0%, rgb(252.88, 238.15, 217.05) 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 24px #fbc880;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  min-width: 39px;
+  padding: 8.3px 9px;
+}
+
+.doctor-portal-settings-hover .vector-7 {
+  height: 17px;
+  width: 20px;
+}
+
+.doctor-portal-settings-hover .pulse-rate {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 21px;
+  min-width: 115px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .number {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 1.0px;
+  margin-left: 269px;
+  min-width: 56px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-settings-hover .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 169px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.doctor-portal-settings-hover .flex-row-3 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.doctor-portal-settings-hover .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.doctor-portal-settings-hover .flex-col-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.doctor-portal-settings-hover .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.doctor-portal-settings-hover .vector-8 {
+  height: 50px;
+  width: 49px;
+}
+
+.doctor-portal-settings-hover .vector-9 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.doctor-portal-settings-hover .vector-10 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.doctor-portal-settings-hover .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

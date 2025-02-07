@@ -1,0 +1,460 @@
+/* screen - doctor-portal-patient-list */
+
+.doctor-portal-patient-list {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.doctor-portal-patient-list .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.doctor-portal-patient-list .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.doctor-portal-patient-list .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.doctor-portal-patient-list .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.doctor-portal-patient-list .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.doctor-portal-patient-list .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.doctor-portal-patient-list .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.doctor-portal-patient-list .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.doctor-portal-patient-list .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 1128px;
+  margin-left: 12px;
+  margin-top: 131px;
+  min-width: 1391px;
+  z-index: 1;
+}
+
+.doctor-portal-patient-list .sidebar-doc {
+  align-items: center;
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #54d2e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 1065px;
+  padding: 27px 0;
+  width: 120px;
+}
+
+.doctor-portal-patient-list .ml-care {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 60px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.doctor-portal-patient-list .home {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 137px;
+  width: 33px;
+}
+
+.doctor-portal-patient-list .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--blued3);
+  border-radius: 10px;
+  display: flex;
+  height: 51px;
+  margin-top: 40px;
+  min-width: 56px;
+  padding: 11px 7px;
+}
+
+.doctor-portal-patient-list .vector {
+  cursor: pointer;
+  height: 28px;
+  width: 41px;
+}
+
+.doctor-portal-patient-list .calendar {
+  cursor: pointer;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 28px;
+  width: 33px;
+}
+
+.doctor-portal-patient-list .feedback {
+  cursor: pointer;
+  height: 28px;
+  margin-right: 1.0px;
+  margin-top: 46px;
+  width: 33px;
+}
+
+.doctor-portal-patient-list .chat {
+  cursor: pointer;
+  height: 34px;
+  margin-right: 1.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.doctor-portal-patient-list .setting {
+  cursor: pointer;
+  height: 31px;
+  margin-right: 3.0px;
+  margin-top: 37px;
+  width: 33px;
+}
+
+.doctor-portal-patient-list .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+  min-height: 1120px;
+  width: 1247px;
+}
+
+.doctor-portal-patient-list .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  min-width: 1247px;
+}
+
+.doctor-portal-patient-list .dr-ak-mehta {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 22.0px;
+  min-width: 490px;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .bell {
+  align-self: flex-end;
+  height: 88px;
+  margin-left: 465px;
+  width: 82px;
+}
+
+.doctor-portal-patient-list .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 11.0px;
+  margin-left: 12px;
+  min-height: 35px;
+  width: 114px;
+}
+
+.doctor-portal-patient-list .dr-ak-mehta-1 {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-width: 114px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .avatar-image-60 {
+  align-self: flex-start;
+  background-image: url(../img/avatar---image-60-21@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 24px #a5dbe5;
+  height: 75px;
+  margin-left: 9px;
+  width: 75px;
+}
+
+.doctor-portal-patient-list .overlap-group3 {
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 937px;
+  padding: 19px 14px;
+  width: 1228px;
+}
+
+.doctor-portal-patient-list .overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  min-width: 1194px;
+  padding: 13px 263px;
+}
+
+.doctor-portal-patient-list .vip-medio-legal {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 667px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 54px;
+  margin-right: 10.0px;
+  margin-top: 35px;
+  min-width: 1086px;
+}
+
+.doctor-portal-patient-list .overlap-group {
+  height: 272px;
+  position: relative;
+  width: 231px;
+}
+
+.doctor-portal-patient-list .rectangle {
+  background-color: var(--grey1);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #9fa4a426;
+  height: 202px;
+  left: 0;
+  position: absolute;
+  top: 70px;
+  width: 231px;
+}
+
+.doctor-portal-patient-list .ellipse {
+  height: 155px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 155px;
+}
+
+.doctor-portal-patient-list .riyah {
+  left: 86px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 144px;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .confidential {
+  left: 78px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 168px;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .rectangle-1 {
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e994;
+  cursor: pointer;
+  height: 35px;
+  left: 65px;
+  position: absolute;
+  top: 223px;
+  width: 100px;
+}
+
+.doctor-portal-patient-list .view {
+  left: 108px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 226px;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .view-1 {
+  height: 9px;
+  left: 89px;
+  position: absolute;
+  top: 237px;
+  width: 13px;
+}
+
+.doctor-portal-patient-list .overlap-group7 {
+  align-items: flex-start;
+  align-self: flex-start;
+  background-color: var(--blued2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #54d2e9;
+  display: flex;
+  height: 56px;
+  margin-top: 129px;
+  min-width: 1194px;
+  padding: 13px 426px;
+}
+
+.doctor-portal-patient-list .regular-normal-patients {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 342px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.doctor-portal-patient-list .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 54px;
+  margin-right: 10.0px;
+  margin-top: 38px;
+  min-width: 1086px;
+}
+
+.doctor-portal-patient-list .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 106px;
+  min-width: 1474px;
+  z-index: 2;
+}
+
+.doctor-portal-patient-list .flex-row-2 {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.doctor-portal-patient-list .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.doctor-portal-patient-list .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.doctor-portal-patient-list .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.doctor-portal-patient-list .vector-1 {
+  height: 50px;
+  width: 49px;
+}
+
+.doctor-portal-patient-list .vector-2 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.doctor-portal-patient-list .vector-3 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.doctor-portal-patient-list .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

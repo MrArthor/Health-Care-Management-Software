@@ -1,0 +1,232 @@
+/* screen - vitals-edit-form-doc */
+
+.vitals-edit-form-doc {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1492px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.vitals-edit-form-doc .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 8;
+}
+
+.vitals-edit-form-doc .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 10px 17px;
+}
+
+.vitals-edit-form-doc .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.vitals-edit-form-doc .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.vitals-edit-form-doc .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.vitals-edit-form-doc .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.vitals-edit-form-doc .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.vitals-edit-form-doc .navbar-link-sign-uplog-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 128px;
+}
+
+.vitals-edit-form-doc .temperature {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 102px;
+  min-height: 38px;
+  z-index: 5;
+}
+
+.vitals-edit-form-doc .rectangle-5 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 3;
+}
+
+.vitals-edit-form-doc .pulse-rate {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 85px;
+  min-height: 38px;
+  z-index: 6;
+}
+
+.vitals-edit-form-doc .rectangle-12 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 4;
+}
+
+.vitals-edit-form-doc .overlap-group2 {
+  align-self: center;
+  border-radius: 40px;
+  height: 72px;
+  margin-right: 32.0px;
+  margin-top: 70px;
+  position: relative;
+  width: 274px;
+  z-index: 7;
+}
+
+.vitals-edit-form-doc .rectangle-164 {
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.vitals-edit-form-doc .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 87px;
+  min-width: 1474px;
+  z-index: 1;
+}
+
+.vitals-edit-form-doc .flex-row {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.vitals-edit-form-doc .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.vitals-edit-form-doc .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.vitals-edit-form-doc .ml-care {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 113px;
+}
+
+.vitals-edit-form-doc .vector-container {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.vitals-edit-form-doc .vector {
+  height: 50px;
+  width: 49px;
+}
+
+.vitals-edit-form-doc .vector-1 {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.vitals-edit-form-doc .vector-2 {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.vitals-edit-form-doc .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}

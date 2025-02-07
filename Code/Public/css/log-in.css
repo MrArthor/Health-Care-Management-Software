@@ -1,0 +1,225 @@
+/* screen - log-in */
+
+.log-in {
+  align-items: flex-start;
+  background-color: var(--grey1);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1611px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.log-in .navbartop {
+  align-items: flex-start;
+  display: flex;
+  height: 49px;
+  left: 0;
+  min-width: 1452px;
+  position: fixed;
+  top: 0;
+  z-index: 8;
+}
+
+.log-in .navbar-link-container {
+  align-items: center;
+  background-color: var(--blued2);
+  box-shadow: 0px 8px 24px 3px #09788d6e;
+  display: flex;
+  height: 49px;
+  min-width: 1440px;
+  padding: 10px 20px;
+}
+
+.log-in .navbar-link-ml-care {
+  align-self: flex-start;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  min-width: 102px;
+}
+
+.log-in .navbar-link-about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 650px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 81px;
+}
+
+.log-in .navbar-link-products {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.log-in .navbar-link-services {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 73px;
+}
+
+.log-in .navbar-link-contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 101px;
+}
+
+.log-in .navbar-link-sign-up {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 3.0px;
+  min-height: 22px;
+  min-width: 66px;
+}
+
+.log-in .log-in-1 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 109.0px;
+  margin-top: 116px;
+  min-height: 75px;
+  min-width: 201px;
+  z-index: 2;
+}
+
+.log-in .username {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 104px;
+  min-height: 38px;
+  z-index: 5;
+}
+
+.log-in .rectangle-5 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 3;
+}
+
+.log-in .password {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 85px;
+  min-height: 38px;
+  z-index: 6;
+}
+
+.log-in .rectangle-12 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 4;
+}
+
+.log-in .overlap-group2 {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--blued2);
+  border-radius: 40px;
+  display: flex;
+  height: 72px;
+  margin-right: 108.0px;
+  margin-top: 91px;
+  min-width: 274px;
+  padding: 16px 82px;
+  z-index: 7;
+}
+
+.log-in .log-in-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 38px;
+}
+
+.log-in .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 185px;
+  min-width: 1474px;
+  z-index: 1;
+}
+
+.log-in .flex-row {
+  align-items: flex-start;
+  background-color: var(--blued2);
+  display: flex;
+  gap: 88px;
+  height: 607px;
+  min-width: 1440px;
+  padding: 105px 138px;
+}
+
+.log-in .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 298px;
+  height: 373px;
+  min-width: 852px;
+}
+
+.log-in .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 199px;
+  width: 405px;
+}
+
+.log-in .ml-care {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 113px;
+}
+
+.log-in .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 7px;
+  min-width: 253px;
+}
+
+.log-in .vector {
+  height: 50px;
+  width: 49px;
+}
+
+.log-in .lorem-ipsum-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 330px;
+  width: 149px;
+}
